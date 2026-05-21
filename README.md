@@ -138,16 +138,15 @@ Data analysis project focused on extracting business insights and demand trends.
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=venkatesh-0007&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=venkatesh-0007&show_icons=true&theme=transparent&hide_border=true&rank_icon=github"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venkatesh-0007&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venkatesh-0007&layout=compact&theme=transparent&hide_border=true"/>
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=venkatesh-0007&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=transparent&hide_border=true"/>
 
 </div>
-
 ---
 
 # 🏆 Achievements & Certifications
