@@ -1,22 +1,24 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,100:06B6D4&height=220&section=header&text=Venkatesh&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,100:06B6D4&height=240&section=header&text=Venkatesh&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
-# Venkatesh
+# Data Science • Machine Learning • Data Engineering
 
-### Data Science Student • AI Enthusiast • ML Builder
+### Building practical AI systems and real-world intelligent applications
 
-<p>
-Building practical AI systems and real-world projects using Machine Learning, Python, and Data Analytics.
-</p>
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=24&duration=2500&pause=800&color=06B6D4&center=true&vCenter=true&width=700&lines=Machine+Learning;Data+Science;AI+Projects;FastAPI+Learner;Building+Real+World+Projects" />
+<img src="https://img.shields.io/badge/Data%20Science-0B1120?style=for-the-badge&logo=python&logoColor=06B6D4"/>
+
+<img src="https://img.shields.io/badge/Machine%20Learning-0B1120?style=for-the-badge&logo=scikitlearn&logoColor=06B6D4"/>
+
+<img src="https://img.shields.io/badge/Data%20Engineering-0B1120?style=for-the-badge&logo=apachekafka&logoColor=06B6D4"/>
 
 </div>
 
 ---
 
-# About Me
+# 🚀 About Me
 
 ```yaml
 Name: Amudalapalli Venkateswara Rao
@@ -26,28 +28,37 @@ College: Vignan’s Institute of Information Technology
 CGPA: 9.2 / 10
 ```
 
-- Currently building AI-powered and data-driven projects
-- Interested in Machine Learning, Data Science, and backend development
-- Learning FastAPI and scalable application development
-- Ranked in the Top 5% in NPTEL Python for Data Science
-- Passionate about building useful technology with practical impact
+- 📊 Interested in Data Science, Machine Learning, and Data Engineering
+- 🔨 Building AI-powered and data-driven real-world projects
+- 🌱 Currently learning FastAPI and scalable backend development
+- 🏆 Ranked in the Top 5% in NPTEL Python for Data Science
+- ⚡ Passionate about solving real-world problems using technology
 
 ---
 
-# Tech Stack
+# 💻 Tech Stack
 
 <div align="center">
 
-### Languages
+## Languages
+
 <img src="https://skillicons.dev/icons?i=python,java,c,js,sql"/>
 
-### Web Development
+<br><br>
+
+## Web Development
+
 <img src="https://skillicons.dev/icons?i=html,css,js"/>
 
-### Tools
+<br><br>
+
+## Tools
+
 <img src="https://skillicons.dev/icons?i=git,github,vscode"/>
 
 </div>
+
+<br>
 
 <div align="center">
 
@@ -63,32 +74,42 @@ CGPA: 9.2 / 10
 
 ---
 
-# Featured Projects
+# 📌 Featured Projects
 
 ## 🚗 Smart Parking System
-AI-powered parking slot detection system using Python and computer vision.
 
-## 📈 Stock Price Prediction
-Machine learning model for predicting stock market trends using historical data.
-
-## 📊 Sales Demand Analysis
-Data analysis and visualization project focused on business insights.
-
-## 🌐 Attendance Prediction System
-Student attendance tracking and attendance eligibility prediction platform.
+AI-powered parking slot detection system using computer vision and Python.
 
 ---
 
-# Achievements
+## 🤖 AI Smart Drop
 
-- 🏆 Top 5% in NPTEL Python for Data Science
+AI-based smart delivery/drop system focused on automation and intelligent workflows.
+
+---
+
+## 📈 Stock Price Prediction
+
+Machine learning model for predicting stock market trends using historical data.
+
+---
+
+## 📊 Sales Demand Analysis
+
+Data analysis project focused on extracting business insights and demand trends.
+
+---
+
+# 🏆 Achievements
+
+- 🥇 Top 5% in NPTEL Python for Data Science
 - 🎨 Design Lead for Data Science Branch Club
 - 🧠 Participated in AI and technical hackathons
 - 📚 Completed certifications in AI, Data Analytics, and Power BI
 
 ---
 
-# Certifications
+# 📜 Certifications
 
 - NPTEL – Python for Data Science
 - IBM – Artificial Intelligence Fundamentals
@@ -98,7 +119,7 @@ Student attendance tracking and attendance eligibility prediction platform.
 
 ---
 
-# GitHub Stats
+# 📊 GitHub Analytics
 
 <div align="center">
 
@@ -108,6 +129,8 @@ Student attendance tracking and attendance eligibility prediction platform.
 
 </div>
 
+<br>
+
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=venkatesh-0007&theme=tokyonight&hide_border=true&background=0D1117"/>
@@ -116,7 +139,7 @@ Student attendance tracking and attendance eligibility prediction platform.
 
 ---
 
-# Connect With Me
+# 🌐 Connect With Me
 
 <div align="center">
 
@@ -138,7 +161,7 @@ Student attendance tracking and attendance eligibility prediction platform.
 
 <div align="center">
 
-### Building practical AI solutions with real-world impact.
+### Building practical AI solutions with real-world impact
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:0B1120&height=120&section=footer"/>
 
