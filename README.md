@@ -22,7 +22,7 @@
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=venkatesh-0007&label=Visitors&color=58a6ff&style=flat-square"/></div>
+<img src="https://komarev.com/ghpvc/?username=venkatesh-0007&label=PROFILE+VIEWS&color=0d1117&style=flat"/>
 
 ---
 
