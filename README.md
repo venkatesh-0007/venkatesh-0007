@@ -1,28 +1,36 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:111827,100:0f172a&height=260&section=header&text=Venkatesh&fontSize=60&fontColor=58a6ff&animation=twinkling&fontAlignY=40&desc=Data%20Science%20•%20Machine%20Learning%20•%20Data%20Engineering&descAlignY=60&descColor=8b949e"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,25:1f2937,50:374151,75:1f2937,100:0d1117&text=Venkatesh&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=24&pause=1200&color=D1D5DB&center=true&vCenter=true&width=700&lines=Data+Science;Machine+Learning;Data+Engineering;Building+Practical+AI+Systems"/>
+</p>
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Practical+AI+Systems;Machine+Learning+Projects;Data+Science+%7C+Data+Engineering;Always+Learning+New+Technologies)](https://git.io/typing-svg)
+### Building intelligent real-world applications with AI and data
 
-<br><br>
+<br>
 
 <a href="https://venkatesh-0007.github.io/portfolio/">
-<img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58a6ff"/>
+<img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="mailto:amudalapalli.venkateswararao@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff"/>
+<img src="https://img.shields.io/badge/Gmail-111111?style=flat-square&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a">
-<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff"/>
+<img src="https://img.shields.io/badge/LinkedIn-111111?style=flat-square&logo=linkedin&logoColor=white"/>
 </a>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=venkatesh-0007&label=PROFILE+VIEWS&color=0d1117&style=flat"/>
+<img src="https://komarev.com/ghpvc/?username=venkatesh-0007&label=views&color=30363d&style=flat"/>
+
+</div>
+
+---
 
 ---
 
@@ -54,35 +62,48 @@ venkatesh = {
 # 🛠️ Tech Stack
 
 ### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=white)
+
+---
 
 ### 🤖 ML / AI
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-111111?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-111111?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-111111?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-111111?style=for-the-badge&logo=opencv&logoColor=white)
+
+---
 
 ### 📊 Data Analytics
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
+![Power BI](https://img.shields.io/badge/Power%20BI-111111?style=for-the-badge&logo=powerbi&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-111111?style=for-the-badge&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-111111?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
+---
 
 ### 🌐 Web Development
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-111111?style=for-the-badge&logo=css3&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=white)
+
+---
 
 ### ⚙️ Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
+
+![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-111111?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-111111?style=for-the-badge&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-111111?style=for-the-badge&logo=googlecolab&logoColor=white)
 
 ---
 
@@ -136,15 +157,16 @@ Data analysis project focused on extracting business insights and demand trends.
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=venkatesh-0007&show_icons=true&theme=transparent&hide_border=true&rank_icon=github"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=venkatesh-0007&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=9ca3af&icon_color=d1d5db"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venkatesh-0007&layout=compact&theme=transparent&hide_border=true"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venkatesh-0007&layout=compact&theme=transparent&hide_border=true&title_color=ffffff&text_color=9ca3af"/>
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=transparent&hide_border=true"/>
+<img width="70%" src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=transparent&hide_border=true&ring=d1d5db&fire=d1d5db&currStreakLabel=ffffff&sideLabels=9ca3af&dates=6b7280"/>
 
 </div>
+
 ---
 
 # 🏆 Achievements & Certifications
@@ -164,19 +186,19 @@ Data analysis project focused on extracting business insights and demand trends.
 <div align="center">
 
 <a href="https://github.com/venkatesh-0007">
-<img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff"/>
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="https://venkatesh-0007.github.io/portfolio/">
-<img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=58a6ff"/>
+<img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="mailto:amudalapalli.venkateswararao@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff"/>
+<img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a">
-<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff"/>
+<img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 </div>
@@ -185,6 +207,6 @@ Data analysis project focused on extracting business insights and demand trends.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:111827,100:0d1117&height=160&section=footer&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1f2937,50:374151,75:111827,100:0d1117&height=180&section=footer&animation=fadeIn"/>
 
 </div>
