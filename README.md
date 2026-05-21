@@ -3,9 +3,9 @@
 src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=90&duration=100&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=1000&height=140&lines=VENKATESH"
 />
 <p align="center">
-<img src="https://img.shields.io/badge/AI%20ENGINEER-0D1117?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/FULLSTACK-0D1117?style=flat-square&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/COMPUTER%20VISION-0D1117?style=flat-square&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/DATA%20SCIENCE-0D1117?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/MACHINE%20LEARNING-0D1117?style=flat-square&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/DATA%20ENGINEERING-0D1117?style=flat-square&logo=apachespark&logoColor=white"/>
 </p>
 <br>
 <h3 align="center">
@@ -26,8 +26,7 @@ Building intelligent real-world systems with AI and scalable technologies
 </a>
 </p>
 <br>
-
----
+</div>
 
 # 🧠 About Me
 
@@ -90,7 +89,6 @@ venkatesh = {
 ![Jupyter](https://img.shields.io/badge/Jupyter-111111?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-111111?style=for-the-badge&logo=googlecolab&logoColor=white)
 
----
 
 # 🚀 Featured Projects
 
@@ -136,23 +134,15 @@ Data analysis project focused on extracting business insights and demand trends.
 </tr>
 </table>
 
----
 
 # 📊 GitHub Analytics
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=venkatesh-0007&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=d1d5db&icon_color=9ca3af"/>
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=venkatesh-0007&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=d1d5db"/>
-
-<br><br>
-
 <img width="70%" src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=github-dark-blue&hide_border=true&background=00000000&ring=d1d5db&fire=d1d5db&currStreakLabel=ffffff&sideLabels=9ca3af&dates=6b7280"/>
 
 </div>
 
----
 
 # 🏆 Achievements & Certifications
 
