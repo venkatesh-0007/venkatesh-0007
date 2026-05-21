@@ -1,40 +1,31 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0d1117,25:1f2937,50:374151,75:1f2937,100:0d1117&section=header"/>
-
-# <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=64&pause=1200&color=FFFFFF&center=true&vCenter=true&width=700&height=90&lines=Venkatesh"/>
-
-<br>
-
-### Building Practical AI Systems
-
-<br>
-
-#### Building intelligent real-world applications with AI and data
-
-<br>
-
+<img 
+src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=90&duration=100&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=1000&height=140&lines=VENKATESH"
+/>
 <p align="center">
-
-<a href="https://venkatesh-0007.github.io/portfolio/">
-<img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="mailto:amudalapalli.venkateswararao@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a">
-<img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
+<img src="https://img.shields.io/badge/AI%20ENGINEER-0D1117?style=flat-square&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/FULLSTACK-0D1117?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/COMPUTER%20VISION-0D1117?style=flat-square&logo=opencv&logoColor=white"/>
 </p>
-
 <br>
-
-<img src="https://komarev.com/ghpvc/?username=venkatesh-0007&label=views&color=30363d&style=flat"/>
-
-</div>
+<h3 align="center">
+Building intelligent real-world systems with AI and scalable technologies
+</h3>
+<br>
+<p align="center">
+<a href="https://venkatesh-0007.github.io/portfolio/">
+<img src="https://skillicons.dev/icons?i=vercel" height="42"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="mailto:amudalapalli.venkateswararao@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" height="42"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a">
+<img src="https://skillicons.dev/icons?i=linkedin" height="42"/>
+</a>
+</p>
+<br>
 
 ---
 
