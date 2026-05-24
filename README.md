@@ -9,21 +9,14 @@ src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=90&dura
 </p>
 <br>
 <h3 align="center">
-Building intelligent real-world systems with AI and scalable technologies
-</h3>
+Exploring ways to minimize normal work using AI and automation</h3>
 <br>
 <p align="center">
-<a href="https://venkatesh-0007.github.io/portfolio/">
-<img src="https://skillicons.dev/icons?i=vercel" height="42"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="mailto:amudalapalli.venkateswararao@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" height="42"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a">
-<img src="https://skillicons.dev/icons?i=linkedin" height="42"/>
-</a>
+<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://venkatesh-0007.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://www.codechef.com/users/YOUR_USERNAME"><img src="https://img.shields.io/badge/CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
+</p>
 </p>
 <br>
 </div>
@@ -46,8 +39,7 @@ venkatesh = {
         "FastAPI",
         "Backend Development",
         "Advanced ML"
-    ],
-    "achievement" : "Top 5% in NPTEL Python for Data Science"
+    ]
 }
 ```
 <br>
@@ -92,33 +84,26 @@ venkatesh = {
 
 <br>
 
-# Achievements & Certifications
+# 📊 GitHub Insights
 
-- 🥇 Top 5% Nationally — NPTEL Python for Data Science
-- 🎨 Design Lead — Data Science Branch Club
-- 🧠 Participated in AI & Technical Hackathons
-- 📜 IBM — Artificial Intelligence Fundamentals
-- 📊 Tata — AI Powered Data Analytics Job Simulation
-- 📈 Kaggle — Data Visualization
-- 💻 Simplilearn — Power BI for Beginners
-<br>
+<p align="center">
+
+<img width="49%" src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff"/>
+
+</p>
+
+<p align="center">
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=venkatesh-0007&theme=github-dark&hide_border=true&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff"/>
+
+</p>
+
 
 # Connect With Me
 
 <p align="center">
-
-<a href="https://venkatesh-0007.github.io/portfolio/">
-<img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="mailto:amudalapalli.venkateswararao@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a">
-<img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
+<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://venkatesh-0007.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://www.codechef.com/users/YOUR_USERNAME"><img src="https://img.shields.io/badge/CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
 </p>
-
-</div>
