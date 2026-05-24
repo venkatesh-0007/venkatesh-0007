@@ -28,7 +28,7 @@ Building intelligent real-world systems with AI and scalable technologies
 <br>
 </div>
 
-# 🧠 About Me
+# About Me
 
 ```python
 venkatesh = {
@@ -50,10 +50,11 @@ venkatesh = {
     "achievement" : "Top 5% in NPTEL Python for Data Science"
 }
 ```
+<br>
 
-# 🛠️ Tech Stack
+# Tech Stack
 
-### 💻 Languages
+### Languages
 
 ![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -61,7 +62,7 @@ venkatesh = {
 ![SQL](https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=mysql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=white)
 
-### 🤖 ML / AI
+### ML / AI
 
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-111111?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas&logoColor=white)
@@ -69,19 +70,19 @@ venkatesh = {
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-111111?style=for-the-badge&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-111111?style=for-the-badge&logo=opencv&logoColor=white)
 
-### 📊 Data Analytics
+### Data Analytics
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-111111?style=for-the-badge&logo=powerbi&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-111111?style=for-the-badge&logo=tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-111111?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
-### 🌐 Web Development
+### Web Development
 
 ![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-111111?style=for-the-badge&logo=css3&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### ⚙️ Tools & Platforms
+### Tools & Platforms
 
 ![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)
@@ -89,62 +90,9 @@ venkatesh = {
 ![Jupyter](https://img.shields.io/badge/Jupyter-111111?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-111111?style=for-the-badge&logo=googlecolab&logoColor=white)
 
+<br>
 
-# 🚀 Featured Projects
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-## 🚗 Smart Parking System
-
-AI-powered real-time parking slot detection using Computer Vision and Python.
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🤖 AI Smart Drop
-
-AI-based smart file drop and automation system with intelligent workflows.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 📈 Stock Price Prediction
-
-Machine learning model for predicting stock market trends using historical data.
-
-</td>
-
-<td width="50%" valign="top">
-
-## 📊 Sales Demand Analysis
-
-Data analysis project focused on extracting business insights and demand trends.
-
-</td>
-
-</tr>
-</table>
-
-
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img width="70%" src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=github-dark-blue&hide_border=true&background=00000000&ring=d1d5db&fire=d1d5db&currStreakLabel=ffffff&sideLabels=9ca3af&dates=6b7280"/>
-
-</div>
-
-
-# 🏆 Achievements & Certifications
+# Achievements & Certifications
 
 - 🥇 Top 5% Nationally — NPTEL Python for Data Science
 - 🎨 Design Lead — Data Science Branch Club
@@ -153,8 +101,9 @@ Data analysis project focused on extracting business insights and demand trends.
 - 📊 Tata — AI Powered Data Analytics Job Simulation
 - 📈 Kaggle — Data Visualization
 - 💻 Simplilearn — Power BI for Beginners
+<br>
 
-# 🌐 Connect With Me
+# Connect With Me
 
 <p align="center">
 
