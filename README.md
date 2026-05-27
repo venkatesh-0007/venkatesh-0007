@@ -91,15 +91,15 @@ venkatesh = {
 
 # GitHub Insights
 
-<!-- <p align="center">
+<p align="center">
 
 <img width="49%" src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff"/>
 
-</p> -->
-
-<p align="center">
-  <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=venkatesh-0007&type=contributions&theme=github" alt="venkatesh-0007's Contribution stats" />
 </p>
+
+<!-- <p align="center">
+  <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=venkatesh-0007&type=contributions&theme=github" alt="venkatesh-0007's Contribution stats" />
+</p> -->
 
 
 <!-- <p align="center">
