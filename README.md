@@ -84,7 +84,7 @@ venkatesh = {
 
 <br>
 
-# 📊 GitHub Insights
+# GitHub Insights
 
 <p align="center">
 
@@ -92,11 +92,11 @@ venkatesh = {
 
 </p>
 
-<p align="center">
+<!-- <p align="center">
 
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=venkatesh-0007&theme=github-dark&hide_border=true&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff"/>
 
-</p>
+</p> -->
 
 
 # Connect With Me
