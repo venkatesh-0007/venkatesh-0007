@@ -1,4 +1,6 @@
-<img src="./divider.svg" width="100%">
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:111111,25:666666,50:FFFFFF,75:666666,100:111111"/>
+</p>
 
 <div align="center">
 <img 
@@ -22,6 +24,7 @@ Exploring ways to minimize normal work using AI and automation</h3>
 </p>
 <br>
 </div>
+
 
 # About Me
 
@@ -112,4 +115,8 @@ venkatesh = {
 <a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://venkatesh-0007.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 <a href="https://www.codechef.com/users/YOUR_USERNAME"><img src="https://img.shields.io/badge/CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:111111,25:666666,50:FFFFFF,75:666666,100:111111"/>
 </p>
