@@ -1,4 +1,4 @@
-<img width="100%" src="divider.svg">
+<img src="./divider.svg" width="100%">
 
 <div align="center">
 <img 
