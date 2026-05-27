@@ -1,3 +1,5 @@
+<img width="100%" src="divider.svg">
+
 <div align="center">
 <img 
 src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=90&duration=100&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=1000&height=140&lines=VENKATESH"
