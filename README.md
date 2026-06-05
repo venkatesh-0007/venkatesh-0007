@@ -25,6 +25,9 @@ Exploring ways to minimize normal work using AI and automation</h3>
 <br>
 </div>
 
+<p align="center">
+  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+</p>
 
 # About Me
 
@@ -48,6 +51,10 @@ venkatesh = {
 }
 ```
 <br>
+
+<p align="center">
+  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+</p>
 
 # Tech Stack
 
@@ -89,6 +96,10 @@ venkatesh = {
 
 <br>
 
+<p align="center">
+  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+</p>
+
 # GitHub Insights
 
 <p align="center">
@@ -107,6 +118,10 @@ venkatesh = {
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=venkatesh-0007&theme=github-dark&hide_border=true&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff"/>
 
 </p> -->
+
+<p align="center">
+  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+</p>
 
 # Connect With Me
 
