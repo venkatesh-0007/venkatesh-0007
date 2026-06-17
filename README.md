@@ -1,11 +1,12 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:111111,25:666666,50:FFFFFF,75:666666,100:111111"/>
+  <img src="divider.svg" alt="Cosmic Divider" width="100%">
 </p>
 
-<div align="center">
-<img 
-src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=90&duration=100&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=1000&height=140&lines=VENKATESH"
-/>
+<p align="center">
+  <img src="title.svg" alt="Loki Animated Banner" width="100%" />
+</p>
+
+
 <p align="center">
 <img src="https://img.shields.io/badge/DATA%20SCIENCE-0D1117?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/MACHINE%20LEARNING-0D1117?style=flat-square&logo=tensorflow&logoColor=white"/>
@@ -132,6 +133,3 @@ venkatesh = {
 <a href="https://www.codechef.com/users/YOUR_USERNAME"><img src="https://img.shields.io/badge/CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
 </p>
 
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:111111,25:666666,50:FFFFFF,75:666666,100:111111"/>
-</p>
