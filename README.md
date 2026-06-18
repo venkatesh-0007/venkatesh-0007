@@ -1,33 +1,26 @@
 <p align="center">
-  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+  <img src="divider.svg" width="100%">
 </p>
 
 <p align="center">
-  <img src="title.svg" alt="Loki Animated Banner" width="100%" />
+  <img src="title.svg" width="100%">
 </p>
 
 
-<p align="center">
-<img src="https://img.shields.io/badge/DATA%20SCIENCE-0D1117?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/MACHINE%20LEARNING-0D1117?style=flat-square&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/DATA%20ENGINEERING-0D1117?style=flat-square&logo=apachespark&logoColor=white"/>
-</p>
-<br>
 <h3 align="center">
-Exploring ways to minimize normal work using AI and automation</h3>
-<br>
-<p align="center">
-<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://venkatesh-0007.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<a href="https://www.codechef.com/users/YOUR_USERNAME"><img src="https://img.shields.io/badge/CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
-</p>
-</p>
-<br>
-</div>
+Building practical AI systems and automation tools
+</h3>
+
+<h3 align="center">
+AI Automation • Machine Learning • Data Engineering
+</h3>
 
 <p align="center">
-  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+
+</p>
+
+<p align="center">
+  <img src="divider.svg" width="100%">
 </p>
 
 # About Me
