@@ -15,13 +15,13 @@ Building practical AI systems and automation tools
 AI Automation • Machine Learning • Data Engineering
 </h3>
 
-<p align="center">
-
-</p>
+<br><br>
 
 <p align="center">
   <img src="divider.svg" width="100%">
 </p>
+
+
 
 # About Me
 
