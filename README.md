@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="divider.svg" width="100%">
+  <img src="divider.svg?v=2" width="100%">
 </p>
 
 <p align="center">
-  <img src="title.svg" width="100%">
+  <img src="title.svg?v=2" width="100%">
 </p>
 
 
@@ -18,7 +18,7 @@ AI Automation • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider.svg" width="100%">
+  <img src="divider.svg?v=2" width="100%">
 </p>
 
 
@@ -91,7 +91,7 @@ venkatesh = {
 <br>
 
 <p align="center">
-  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+  <img src="divider.svg?v=2" alt="Cosmic Divider" width="100%">
 </p>
 
 # GitHub Insights
@@ -116,7 +116,7 @@ venkatesh = {
 </p> -->
 
 <p align="center">
-  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+  <img src="divider.svg?v=2" alt="Cosmic Divider" width="100%">
 </p>
 
 # Connect With Me
