@@ -45,6 +45,7 @@
 
       @media (prefers-color-scheme: light) {
         .div-bracket {
+          fill: #0f172a;
           filter: drop-shadow(0px 0px 3px rgba(15, 23, 42, 0.45)) drop-shadow(0px 0px 1px rgba(15, 23, 42, 0.35));
         }
         .stagger-block {

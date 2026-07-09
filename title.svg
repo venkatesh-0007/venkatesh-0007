@@ -58,6 +58,19 @@
       </feMerge>
     </filter>
 
+    <!-- Loki Text Glow (Adaptive Light Mode) -->
+    <filter id="loki-glow-light" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="blur1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.38
+                                           0 0 0 0 0.4
+                                           0 0 0 0 0.94
+                                           0 0 0 0 0.35 0" in="blur1" result="glow1" />
+      <feMerge>
+        <feMergeNode in="glow1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
     <style type="text/css">
       /* 1. Global Styles */
       .loki-container {
@@ -73,6 +86,13 @@
   text-anchor: middle;
   filter: url(#loki-glow-dark);
   transform-origin: center;
+}
+
+@media (prefers-color-scheme: light) {
+  .char {
+    fill: #090514;
+    filter: url(#loki-glow-light);
+  }
 }
 
 

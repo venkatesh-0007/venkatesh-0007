@@ -97,9 +97,11 @@ venkatesh = {
 # GitHub Insights
 
 <p align="center">
-
-<img width="49%" src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff"/>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=venkatesh-0007&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=venkatesh-0007&hide_border=true&background=00000000&ring=4f46e5&fire=f97316&currStreakLabel=0f172a&sideLabels=334155&dates=475569&currStreakVal=0f172a&sideValues=0f172a">
+  <img width="49%" src="https://streak-stats.demolab.com?user=venkatesh-0007&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff" alt="Venkatesh's GitHub Streak Stats"/>
+</picture>
 </p>
 
 <!-- <p align="center">
