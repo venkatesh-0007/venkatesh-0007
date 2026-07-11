@@ -26,9 +26,9 @@ AI Automation • Machine Learning • Data Engineering
 # About Me
 
 <table width="100%">
-  <tr>
-    <td valign="top" width="55%">
-      <pre>
+<tr>
+<td valign="top" width="55%">
+<pre>
                      .-++=+++=-===:.               
                     -*%@@@@@@@@@@@@#*+:            
                    *@@@@@@@@@@@@@@@@@@##=.         
@@ -62,63 +62,63 @@ AI Automation • Machine Learning • Data Engineering
 +=                                   .-          -+
 +-                                   :.       .: .-
 =:                                   =.  :+=----+. 
-      </pre>
-    </td>
-    <td valign="top" width="45%" style="padding-left: 20px;">
-      <h3>👤 PROFILE</h3>
-      <table width="100%" cellpadding="6" cellspacing="0" border="0">
-        <tr>
-          <td><strong>Name</strong></td>
-          <td><code>Amudalapalli Venkateswara Rao</code></td>
-        </tr>
-        <tr>
-          <td><strong>Username</strong></td>
-          <td><a href="https://github.com/venkatesh-0007"><code>venkatesh-0007</code></a></td>
-        </tr>
-        <tr>
-          <td><strong>Role</strong></td>
-          <td><code>AI Developer</code></td>
-        </tr>
-        <tr>
-          <td><strong>Location</strong></td>
-          <td><code>Rajahmundry, India</code></td>
-        </tr>
-        <tr>
-          <td><strong>Education</strong></td>
-          <td><code>B.Tech Data Science @ VIIT</code></td>
-        </tr>
-        <tr>
-          <td><strong>CGPA</strong></td>
-          <td><code>9.2 / 10</code></td>
-        </tr>
-      </table>
+</pre>
+</td>
+<td valign="top" width="45%" style="padding-left: 20px;">
+<h3>👤 PROFILE</h3>
+<table width="100%" cellpadding="6" cellspacing="0" border="0">
+<tr>
+<td><strong>Name</strong></td>
+<td><code>Amudalapalli Venkateswara Rao</code></td>
+</tr>
+<tr>
+<td><strong>Username</strong></td>
+<td><a href="https://github.com/venkatesh-0007"><code>venkatesh-0007</code></a></td>
+</tr>
+<tr>
+<td><strong>Role</strong></td>
+<td><code>AI Developer</code></td>
+</tr>
+<tr>
+<td><strong>Location</strong></td>
+<td><code>Rajahmundry, India</code></td>
+</tr>
+<tr>
+<td><strong>Education</strong></td>
+<td><code>B.Tech Data Science @ VIIT</code></td>
+</tr>
+<tr>
+<td><strong>CGPA</strong></td>
+<td><code>9.2 / 10</code></td>
+</tr>
+</table>
 
-      <br>
+<br>
 
-      <h3>🎯 CORE DOMAINS</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Data_Science-111111?style=for-the-badge&logo=jupyter&logoColor=white" height="22" />
-        <img src="https://img.shields.io/badge/Machine_Learning-111111?style=for-the-badge&logo=scikit-learn&logoColor=white" height="22" />
-        <img src="https://img.shields.io/badge/Data_Engineering-111111?style=for-the-badge&logo=apache-spark&logoColor=white" height="22" />
-      </p>
+<h3>🎯 CORE DOMAINS</h3>
+<p>
+<img src="https://img.shields.io/badge/Data_Science-111111?style=for-the-badge&logo=jupyter&logoColor=white" height="22" />
+<img src="https://img.shields.io/badge/Machine_Learning-111111?style=for-the-badge&logo=scikit-learn&logoColor=white" height="22" />
+<img src="https://img.shields.io/badge/Data_Engineering-111111?style=for-the-badge&logo=apache-spark&logoColor=white" height="22" />
+</p>
 
-      <br>
+<br>
 
-      <h3>🚀 CURRENTLY</h3>
-      <p>
-        💻 <code>Building AI-powered real-world projects</code>
-      </p>
+<h3>🚀 CURRENTLY</h3>
+<p>
+💻 <code>Building AI-powered real-world projects</code>
+</p>
 
-      <br>
+<br>
 
-      <h3>🧠 LEARNING</h3>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=white" height="22" />
-        <img src="https://img.shields.io/badge/Backend_Dev-111111?style=for-the-badge&logo=python&logoColor=white" height="22" />
-        <img src="https://img.shields.io/badge/Advanced_ML-111111?style=for-the-badge&logo=scikit-learn&logoColor=white" height="22" />
-      </p>
-    </td>
-  </tr>
+<h3>🧠 LEARNING</h3>
+<p>
+<img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=white" height="22" />
+<img src="https://img.shields.io/badge/Backend_Dev-111111?style=for-the-badge&logo=python&logoColor=white" height="22" />
+<img src="https://img.shields.io/badge/Advanced_ML-111111?style=for-the-badge&logo=scikit-learn&logoColor=white" height="22" />
+</p>
+</td>
+</tr>
 </table>
 
 <p align="center">
