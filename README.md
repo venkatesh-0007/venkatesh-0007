@@ -25,6 +25,10 @@ AI Automation • Machine Learning • Data Engineering
 
 # About Me
 
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
 ```text
                               +=*+++++++*++=-
                             =**#####%###%##*++=
@@ -33,35 +37,62 @@ AI Automation • Machine Learning • Data Engineering
                           *%@@%%@@@%#%%%%@%@%%%%%#+==
                          ##@@@@@@@%@@%@%@@%@%#%@@#++
                          %%@@@@@%@@@@@@@@@@%*==**=-
-                         %@@@@@@@@@@@@@@@@%*+===*+-                 Name        : Amudalapalli Venkateswara Rao
-                         ##@@@@@@@@%%@@@%*==-=+*=                   Username    : venkatesh-0007
-                         ##%@@@@@@*+%%@%*====**+-                   Role        : AI Developer
-                        #%@@@@@@@%#+=#++++=====:::                  Location    : Rajahmundry, India
-                        +*%@@%@@@#***+++==+++==+==                  Education   : B.Tech Data Science @ VIIT
-                        ##%@@@@@%#*****++++++*+=-                   CGPA        : 9.2 / 10
+                         %@@@@@@@@@@@@@@@@%*+===*+-
+                         ##@@@@@@@@%%@@@%*==-=+*=
+                         ##%@@@@@@*+%%@%*====**+-
+                        #%@@@@@@@%#+=#++++=====:::
+                        +*%@@%@@@#***+++==+++==+==
+                        ##%@@@@@%#*****++++++*+=-
                           =*%@@%#*++********+++-
 :::
                        .::::.:+****+++**+=-
-                        ....   -++*+**##+=-.  .                     Domains
-               .          .:---:-==++*#*--:.    .                   ────────────────
-              ..   .          .:..-==++=:..      .                  • Data Science
-             :..    ..         ..  --==-  ..      .                 • Machine Learning
-            ::....   :     .    .:: -==-...                         • Data Engineering
+                        ....   -++*+**##+=-.  .
+               .          .:---:-==++*#*--:.    .
+              ..   .          .:..-==++=:..      .
+             :..    ..         ..  --==-  ..      .
+            ::....   :     .    .:: -==-...        .
             ::...... .:    ..    ..---=-.
-            :....:... :     .    .. ::-:                            Currently
-            :... .:...:.        .:..  ..             .              ────────────────
-            .... .:..:-:.     ....... :.       .:.    .             Building AI-powered
-           :.... ..:.:-:.    ......  ......... :...                 real-world projects
+            :....:... :     .    .. ::-:
+            :... .:...:.        .:..  ..             .
+            .... .:..:-:.     ....... :.       .:.    .
+           :.... ..:.:-:.    ......  ......... :...
            .....  .:.:--:.  ..... ...:...      -::.  . .
-          :...... ...----::....    .::.      . -::. ....            Learning
-          :...... ....:::.....    .::.      .. --:.     .           ────────────────
-          :...........  ..:..    .:.      .:. .--::. ....           • FastAPI
-         -.........:....:::.   .::.      .::  :-:...                • Backend Development
-         :.............::..   .:.        ..   =-:.                  • Advanced Machine Learning
+          :...... ...----::....    .::.      . -::. ....
+          :...... ....:::.....    .::.      .. --:.     .
+          :...........  ..:..    .:.      .:. .--::. ....
+         -.........:....:::.   .::.      .::  :-:...
+         :.............::..   .:.        ..   =-:.
          :...  ..........   .:.         ..   .=-.    .::--..
         -:....   ......    ..          .     :=-..:+==---+=.
 ```
-<br>
+
+    </td>
+    <td valign="top" width="50%">
+
+### 👤 Profile
+- **Name:** Amudalapalli Venkateswara Rao
+- **Username:** [venkatesh-0007](https://github.com/venkatesh-0007)
+- **Role:** AI Developer
+- **Location:** Rajahmundry, India
+- **Education:** B.Tech Data Science @ VIIT
+- **CGPA:** 9.2 / 10
+
+### 🎯 Domains
+- 📊 Data Science
+- 🤖 Machine Learning
+- ⚙️ Data Engineering
+
+### 🚀 Currently
+- Building AI-powered real-world projects
+
+### 🧠 Learning
+- ⚡ FastAPI
+- 🛠️ Backend Development
+- 🧠 Advanced Machine Learning
+
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="divider.svg" alt="Cosmic Divider" width="100%">
