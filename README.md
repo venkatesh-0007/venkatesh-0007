@@ -67,6 +67,8 @@ AI Automation • Machine Learning • Data Engineering
 <td valign="top" width="45%" style="padding-left: 20px;">
 
 ```python
+
+
 venkatesh = {
     "name"      : "Amudalapalli Venkateswara Rao",
     "location"  : "Rajahmundry, India",
