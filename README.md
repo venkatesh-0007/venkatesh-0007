@@ -25,24 +25,41 @@ AI Automation • Machine Learning • Data Engineering
 
 # About Me
 
-```python
-venkatesh = {
-    "name"      : "Amudalapalli Venkateswara Rao",
-    "location"  : "Rajahmundry, India",
-    "education" : "B.Tech Data Science @ VIIT",
-    "cgpa"      : 9.2,
-    "domains"   : [
-        "Data Science",
-        "Machine Learning",
-        "Data Engineering"
-    ],
-    "currently" : "Building AI-powered real-world projects",
-    "learning"  : [
-        "FastAPI",
-        "Backend Development",
-        "Advanced ML"
-    ]
-}
+```text
+                              +=*+++++++*++=-
+                            =**#####%###%##*++=
+                           +*%%%%%%%%%%%%%%%%%***#
+                          +*%%%%%%%%%%%%%@%%@%%#**+=
+                          *%@@%%@@@%#%%%%@%@%%%%%#+==
+                         ##@@@@@@@%@@%@%@@%@%#%@@#++
+                         %%@@@@@%@@@@@@@@@@%*==**=-
+                         %@@@@@@@@@@@@@@@@%*+===*+-                 Name        : Amudalapalli Venkateswara Rao
+                         ##@@@@@@@@%%@@@%*==-=+*=                   Username    : venkatesh-0007
+                         ##%@@@@@@*+%%@%*====**+-                   Role        : AI Developer
+                        #%@@@@@@@%#+=#++++=====:::                  Location    : Rajahmundry, India
+                        +*%@@%@@@#***+++==+++==+==                  Education   : B.Tech Data Science @ VIIT
+                        ##%@@@@@%#*****++++++*+=-                   CGPA        : 9.2 / 10
+                          =*%@@%#*++********+++-
+:::
+                       .::::.:+****+++**+=-
+                        ....   -++*+**##+=-.  .                     Domains
+               .          .:---:-==++*#*--:.    .                   ────────────────
+              ..   .          .:..-==++=:..      .                  • Data Science
+             :..    ..         ..  --==-  ..      .                 • Machine Learning
+            ::....   :     .    .:: -==-...                         • Data Engineering
+            ::...... .:    ..    ..---=-.
+            :....:... :     .    .. ::-:                            Currently
+            :... .:...:.        .:..  ..             .              ────────────────
+            .... .:..:-:.     ....... :.       .:.    .             Building AI-powered
+           :.... ..:.:-:.    ......  ......... :...                 real-world projects
+           .....  .:.:--:.  ..... ...:...      -::.  . .
+          :...... ...----::....    .::.      . -::. ....            Learning
+          :...... ....:::.....    .::.      .. --:.     .           ────────────────
+          :...........  ..:..    .:.      .:. .--::. ....           • FastAPI
+         -.........:....:::.   .::.      .::  :-:...                • Backend Development
+         :.............::..   .:.        ..   =-:.                  • Advanced Machine Learning
+         :...  ..........   .:.         ..   .=-.    .::--..
+        -:....   ......    ..          .     :=-..:+==---+=.
 ```
 <br>
 
@@ -125,6 +142,6 @@ venkatesh = {
 <a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://venkatesh-0007.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<a href="https://www.codechef.com/users/YOUR_USERNAME"><img src="https://img.shields.io/badge/CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
+<a href="https://www.codechef.com/users/one_cut"><img src="https://img.shields.io/badge/CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
 </p>
 
