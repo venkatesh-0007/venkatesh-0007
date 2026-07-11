@@ -77,7 +77,6 @@ venkatesh = {
         "Machine Learning",
         "Data Engineering"
     ],
-    "currently" : "Building AI-powered real-world projects",
     "learning"  : [
         "FastAPI",
         "Backend Development",
