@@ -27,9 +27,8 @@ AI Automation • Machine Learning • Data Engineering
 
 <table>
   <tr>
-    <td valign="top" width="50%">
-
-```text
+    <td valign="top" width="55%">
+      <pre>
                               +=*+++++++*++=-
                             =**#####%###%##*++=
                            +*%%%%%%%%%%%%%%%%%***#
@@ -64,32 +63,34 @@ AI Automation • Machine Learning • Data Engineering
          :.............::..   .:.        ..   =-:.
          :...  ..........   .:.         ..   .=-.    .::--..
         -:....   ......    ..          .     :=-..:+==---+=.
-```
-
+      </pre>
     </td>
-    <td valign="top" width="50%">
-
-### 👤 Profile
-- **Name:** Amudalapalli Venkateswara Rao
-- **Username:** [venkatesh-0007](https://github.com/venkatesh-0007)
-- **Role:** AI Developer
-- **Location:** Rajahmundry, India
-- **Education:** B.Tech Data Science @ VIIT
-- **CGPA:** 9.2 / 10
-
-### 🎯 Domains
-- 📊 Data Science
-- 🤖 Machine Learning
-- ⚙️ Data Engineering
-
-### 🚀 Currently
-- Building AI-powered real-world projects
-
-### 🧠 Learning
-- ⚡ FastAPI
-- 🛠️ Backend Development
-- 🧠 Advanced Machine Learning
-
+    <td valign="top" width="45%" style="padding-left: 20px;">
+      <h3>👤 Profile</h3>
+      <ul>
+        <li><strong>Name:</strong> Amudalapalli Venkateswara Rao</li>
+        <li><strong>Username:</strong> <a href="https://github.com/venkatesh-0007">venkatesh-0007</a></li>
+        <li><strong>Role:</strong> AI Developer</li>
+        <li><strong>Location:</strong> Rajahmundry, India</li>
+        <li><strong>Education:</strong> B.Tech Data Science @ VIIT</li>
+        <li><strong>CGPA:</strong> 9.2 / 10</li>
+      </ul>
+      <h3>🎯 Domains</h3>
+      <ul>
+        <li>📊 Data Science</li>
+        <li>🤖 Machine Learning</li>
+        <li>⚙️ Data Engineering</li>
+      </ul>
+      <h3>🚀 Currently</h3>
+      <ul>
+        <li>Building AI-powered real-world projects</li>
+      </ul>
+      <h3>🧠 Learning</h3>
+      <ul>
+        <li>⚡ FastAPI</li>
+        <li>🛠️ Backend Development</li>
+        <li>🧠 Advanced Machine Learning</li>
+      </ul>
     </td>
   </tr>
 </table>
