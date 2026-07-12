@@ -12,7 +12,7 @@ Building practical AI systems and automation tools
 </h3>
 
 <h3 align="center">
-AI Automation • Machine Learning • Data Engineering
+Data Science • Machine Learning • Data Engineering
 </h3>
 
 <br><br>
