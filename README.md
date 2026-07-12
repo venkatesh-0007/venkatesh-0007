@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="divider.svg?v=2" width="100%">
+  <img src="divider/divider.svg?v=2" width="100%">
 </p>
 
 <p align="center">
-  <img src="title.svg?v=2" width="100%">
+  <img src="header/title.svg?v=2" width="100%">
 </p>
 
 
@@ -18,7 +18,7 @@ Data Science • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider.svg?v=2" width="100%">
+  <img src="divider/divider.svg?v=2" width="100%">
 </p>
 
 <br><br>
@@ -28,13 +28,13 @@ Data Science • Machine Learning • Data Engineering
 <br>
 
 <p align="center">
-  <img src="about.svg?v=2" width="100%">
+  <img src="about/about.svg?v=2" width="100%">
 </p>
 
 <br><br>
 
 <p align="center">
-  <img src="divider.svg" alt="Cosmic Divider" width="100%">
+  <img src="divider/divider.svg" alt="Cosmic Divider" width="100%">
 </p>
 
 <br><br>
@@ -80,7 +80,7 @@ Data Science • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider.svg?v=2" alt="Cosmic Divider" width="100%">
+  <img src="divider/divider.svg?v=2" alt="Cosmic Divider" width="100%">
 </p>
 
 <br><br>
@@ -109,7 +109,7 @@ Data Science • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider.svg?v=2" alt="Cosmic Divider" width="100%">
+  <img src="divider/divider.svg?v=2" alt="Cosmic Divider" width="100%">
 </p>
 
 <br><br>
@@ -117,9 +117,9 @@ Data Science • Machine Learning • Data Engineering
 # Connect With Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a"><img src="connect_linkedin.svg" alt="LinkedIn" width="170" height="42"></a>
-<a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="connect_gmail.svg" alt="Gmail" width="170" height="42"></a>
-<a href="https://venkatesh-0007.github.io/portfolio/"><img src="connect_portfolio.svg" alt="Portfolio" width="170" height="42"></a>
-<a href="https://www.codechef.com/users/one_cut"><img src="connect_codechef.svg" alt="CodeChef" width="170" height="42"></a>
+<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a"><img src="connect/connect_linkedin.svg" alt="LinkedIn" width="170" height="42"></a>
+<a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="connect/connect_gmail.svg" alt="Gmail" width="170" height="42"></a>
+<a href="https://venkatesh-0007.github.io/portfolio/"><img src="connect/connect_portfolio.svg" alt="Portfolio" width="170" height="42"></a>
+<a href="https://www.codechef.com/users/one_cut"><img src="connect/connect_codechef.svg" alt="CodeChef" width="170" height="42"></a>
 </p>
 
