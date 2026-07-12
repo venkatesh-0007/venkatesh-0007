@@ -1,0 +1,363 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="100%" height="100%">
+  <defs>
+    <!-- Glassmorphism Border Gradient (Dark Mode) -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.12)" />
+      <stop offset="45%" stop-color="rgba(255, 255, 255, 0.02)" />
+      <stop offset="70%" stop-color="rgba(255, 255, 255, 0.01)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.08)" />
+    </linearGradient>
+
+    <!-- Grid Pattern for Panel Background -->
+    <pattern id="grid-pattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="rgba(255, 255, 255, 0.08)" />
+    </pattern>
+
+    <!-- Glowing Filters -->
+    <filter id="purple-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4.5" result="blur" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.66
+                                           0 0 0 0 0.33
+                                           0 0 0 0 0.97
+                                           0 0 0 0 0.6 0" in="blur" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="teal-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.02
+                                           0 0 0 0 0.71
+                                           0 0 0 0 0.83
+                                           0 0 0 0 0.6 0" in="blur" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Fira+Code:wght@400;500&amp;display=swap');
+
+      /* Card styles (Transparent by default for Dark Mode) */
+      .card-bg {
+        fill: none;
+      }
+      .card-border {
+        fill: none;
+        stroke: url(#border-grad);
+        stroke-width: 1.2;
+      }
+      
+      /* Typography (Dark Mode) */
+      .title-text {
+        font-family: 'Oxanium', monospace;
+        font-size: 24px;
+        font-weight: 700;
+        fill: #ffffff;
+        filter: url(#purple-glow);
+      }
+      .label-text {
+        font-family: 'Oxanium', monospace;
+        font-size: 10px;
+        font-weight: 600;
+        fill: #a955f7;
+        letter-spacing: 1.5px;
+        filter: drop-shadow(0px 0px 1px rgba(169, 85, 247, 0.3));
+      }
+      .value-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+      .body-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        fill: #d1d5db;
+      }
+      
+      /* Panels (Dark Mode) */
+      .panel-border {
+        fill: rgba(255, 255, 255, 0.015);
+        stroke: rgba(255, 255, 255, 0.08);
+        stroke-width: 1;
+      }
+      .panel-grid {
+        fill: url(#grid-pattern);
+      }
+      .panel-header-bg {
+        fill: rgba(255, 255, 255, 0.02);
+        stroke: rgba(255, 255, 255, 0.08);
+        stroke-width: 1;
+      }
+      .panel-header-text {
+        font-family: 'Oxanium', monospace;
+        font-size: 10px;
+        font-weight: 600;
+        fill: rgba(255, 255, 255, 0.55);
+        letter-spacing: 1px;
+      }
+      .panel-stat-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 9px;
+        fill: rgba(255, 255, 255, 0.45);
+      }
+
+      /* Network visualization elements (Dark Mode) */
+      .net-line-purple {
+        stroke: rgba(169, 85, 247, 0.25);
+      }
+      .net-line-teal {
+        stroke: rgba(6, 182, 212, 0.25);
+      }
+      .net-node-purple {
+        fill: #a955f7;
+      }
+      .net-node-purple-ring {
+        stroke: #a955f7;
+        opacity: 0.4;
+      }
+      .net-node-teal {
+        fill: #06b6d4;
+      }
+      .net-node-teal-ring {
+        stroke: #06b6d4;
+        opacity: 0.4;
+      }
+
+      /* Tags (Dark Mode) */
+      .tag-domain {
+        fill: rgba(169, 85, 247, 0.08);
+        stroke: rgba(169, 85, 247, 0.4);
+        stroke-width: 1px;
+      }
+      .tag-domain-text {
+        font-family: 'Oxanium', monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #e9d5ff;
+      }
+      .tag-learning {
+        fill: rgba(6, 182, 212, 0.08);
+        stroke: rgba(6, 182, 212, 0.4);
+        stroke-width: 1px;
+      }
+      .tag-learning-text {
+        font-family: 'Oxanium', monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #cffafe;
+      }
+
+      /* Adaptivity for prefers-color-scheme: light */
+      @media (prefers-color-scheme: light) {
+        .card-bg {
+          fill: none;
+        }
+        .card-border {
+          stroke: rgba(15, 23, 42, 0.08);
+        }
+        .title-text {
+          fill: #0f172a;
+          filter: drop-shadow(0px 0px 4px rgba(138, 91, 230, 0.25));
+        }
+        .label-text {
+          fill: #7c3aed;
+          filter: none;
+        }
+        .value-text {
+          fill: #0f172a;
+        }
+        .body-text {
+          fill: #334155;
+        }
+        .panel-border {
+          fill: rgba(15, 23, 42, 0.01);
+          stroke: rgba(15, 23, 42, 0.08);
+        }
+        .panel-grid {
+          opacity: 0.15;
+        }
+        .panel-header-bg {
+          fill: rgba(15, 23, 42, 0.015);
+          stroke: rgba(15, 23, 42, 0.08);
+        }
+        .panel-header-text {
+          fill: rgba(15, 23, 42, 0.6);
+        }
+        .panel-stat-text {
+          fill: rgba(15, 23, 42, 0.55);
+        }
+        .tag-domain {
+          fill: rgba(124, 58, 237, 0.04);
+          stroke: rgba(124, 58, 237, 0.25);
+        }
+        .tag-domain-text {
+          fill: #6d28d9;
+        }
+        .tag-learning {
+          fill: rgba(8, 145, 178, 0.04);
+          stroke: rgba(8, 145, 178, 0.25);
+        }
+        .tag-learning-text {
+          fill: #0e7490;
+        }
+        .net-line-purple {
+          stroke: rgba(124, 58, 237, 0.16);
+        }
+        .net-line-teal {
+          stroke: rgba(8, 145, 178, 0.16);
+        }
+        .net-node-purple {
+          fill: #7c3aed;
+          filter: drop-shadow(0px 0px 3px rgba(124, 58, 237, 0.4));
+        }
+        .net-node-purple-ring {
+          stroke: #7c3aed;
+          opacity: 0.3;
+        }
+        .net-node-teal {
+          fill: #0891b2;
+          filter: drop-shadow(0px 0px 3px rgba(8, 145, 178, 0.4));
+        }
+        .net-node-teal-ring {
+          stroke: #0891b2;
+          opacity: 0.3;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect class="card-bg" x="0" y="0" width="800" height="380" rx="12" />
+  <rect class="card-border" x="1" y="1" width="798" height="378" rx="11" />
+
+  <!-- LEFT PANEL: Neural Network Visualizer -->
+  <rect class="panel-border" x="25" y="25" width="310" height="330" rx="8" />
+  <rect class="panel-grid" x="26" y="26" width="308" height="328" rx="7" />
+  <!-- Panel Header -->
+  <path class="panel-header-bg" d="M 25,33 A 8,8 0 0,1 33,25 L 327,25 A 8,8 0 0,1 335,33 L 335,53 L 25,53 Z" />
+  <text class="panel-header-text" x="40" y="42">[ NN_MODEL.VIZ ]</text>
+  <!-- Cyber-decoration dot -->
+  <circle cx="315" cy="39" r="3.5" fill="#a955f7" filter="url(#purple-glow)" />
+
+  <!-- Neural Net Visual Graphic -->
+  <g>
+    <!-- Connections -->
+  <line class="net-line-purple" x1="90" y1="125" x2="180" y2="95" stroke-width="1.2" />
+  <line class="net-line-teal" x1="90" y1="125" x2="180" y2="165" stroke-width="1.2" />
+  <line class="net-line-purple" x1="90" y1="125" x2="180" y2="235" stroke-width="1.2" />
+  <line class="net-line-teal" x1="90" y1="125" x2="180" y2="305" stroke-width="1.2" />
+  <line class="net-line-teal" x1="90" y1="200" x2="180" y2="95" stroke-width="1.2" />
+  <line class="net-line-purple" x1="90" y1="200" x2="180" y2="165" stroke-width="1.2" />
+  <line class="net-line-teal" x1="90" y1="200" x2="180" y2="235" stroke-width="1.2" />
+  <line class="net-line-purple" x1="90" y1="200" x2="180" y2="305" stroke-width="1.2" />
+  <line class="net-line-purple" x1="90" y1="275" x2="180" y2="95" stroke-width="1.2" />
+  <line class="net-line-teal" x1="90" y1="275" x2="180" y2="165" stroke-width="1.2" />
+  <line class="net-line-purple" x1="90" y1="275" x2="180" y2="235" stroke-width="1.2" />
+  <line class="net-line-teal" x1="90" y1="275" x2="180" y2="305" stroke-width="1.2" />
+  <line class="net-line-purple" x1="180" y1="95" x2="270" y2="150" stroke-width="1.2" />
+  <line class="net-line-teal" x1="180" y1="95" x2="270" y2="250" stroke-width="1.2" />
+  <line class="net-line-teal" x1="180" y1="165" x2="270" y2="150" stroke-width="1.2" />
+  <line class="net-line-purple" x1="180" y1="165" x2="270" y2="250" stroke-width="1.2" />
+  <line class="net-line-purple" x1="180" y1="235" x2="270" y2="150" stroke-width="1.2" />
+  <line class="net-line-teal" x1="180" y1="235" x2="270" y2="250" stroke-width="1.2" />
+  <line class="net-line-teal" x1="180" y1="305" x2="270" y2="150" stroke-width="1.2" />
+  <line class="net-line-purple" x1="180" y1="305" x2="270" y2="250" stroke-width="1.2" />
+
+    <!-- Nodes -->
+  <circle class="net-node-teal-ring" cx="90" cy="125" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-teal" cx="90" cy="125" r="5.5" filter="url(#teal-glow)" />
+  <circle class="net-node-teal-ring" cx="90" cy="200" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-teal" cx="90" cy="200" r="5.5" filter="url(#teal-glow)" />
+  <circle class="net-node-teal-ring" cx="90" cy="275" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-teal" cx="90" cy="275" r="5.5" filter="url(#teal-glow)" />
+  <circle class="net-node-purple-ring" cx="180" cy="95" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-purple" cx="180" cy="95" r="5.5" filter="url(#purple-glow)" />
+  <circle class="net-node-purple-ring" cx="180" cy="165" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-purple" cx="180" cy="165" r="5.5" filter="url(#purple-glow)" />
+  <circle class="net-node-purple-ring" cx="180" cy="235" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-purple" cx="180" cy="235" r="5.5" filter="url(#purple-glow)" />
+  <circle class="net-node-purple-ring" cx="180" cy="305" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-purple" cx="180" cy="305" r="5.5" filter="url(#purple-glow)" />
+  <circle class="net-node-teal-ring" cx="270" cy="150" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-teal" cx="270" cy="150" r="5.5" filter="url(#teal-glow)" />
+  <circle class="net-node-teal-ring" cx="270" cy="250" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-teal" cx="270" cy="250" r="5.5" filter="url(#teal-glow)" />
+  </g>
+
+  <!-- Bottom Panel Metrics -->
+  <text class="panel-stat-text" x="40" y="340">EPOCH: 0512</text>
+  <text class="panel-stat-text" x="135" y="340">LOSS: 0.0134</text>
+  <text class="panel-stat-text" x="235" y="340">ACC: 99.12%</text>
+
+  <!-- RIGHT PANEL: Information -->
+  <rect class="panel-border" x="355" y="25" width="420" height="330" rx="8" />
+  <!-- Panel Header -->
+  <path class="panel-header-bg" d="M 355,33 A 8,8 0 0,1 363,25 L 767,25 A 8,8 0 0,1 775,33 L 775,53 L 355,53 Z" />
+  <text class="panel-header-text" x="370" y="42">[ IDENTITY_DECRYPTED ]</text>
+  <circle cx="755" cy="39" r="3.5" fill="#06b6d4" filter="url(#teal-glow)" />
+
+  <!-- Title "ABOUT ME" -->
+  <text class="title-text" x="375" y="90">ABOUT ME</text>
+  
+  <!-- Line divider under title -->
+  <line x1="375" y1="102" x2="520" y2="102" stroke="#a955f7" stroke-width="2" filter="url(#purple-glow)" />
+  <line x1="520" y1="102" x2="745" y2="102" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+
+  <!-- Details Content -->
+  <!-- Name -->
+  <text class="label-text" x="375" y="128">NAME</text>
+  <text class="value-text" x="375" y="148">Amudalapalli Venkateswara Rao</text>
+
+  <!-- Info Grid (Location & Education) -->
+  <text class="label-text" x="375" y="180">LOCATION</text>
+  <text class="body-text" x="375" y="198">📍 Rajahmundry, India</text>
+
+  <text class="label-text" x="555" y="180">EDUCATION &amp; CGPA</text>
+  <text class="body-text" x="555" y="198">🎓 B.Tech Data Science @ VIIT</text>
+  <text class="body-text" x="555" y="215">📈 CGPA: 9.2 / 10</text>
+
+  <!-- Core Domains -->
+  <text class="label-text" x="375" y="248">CORE DOMAINS</text>
+  <!-- Domain tags -->
+  <!-- Data Science -->
+  <g transform="translate(375, 258)">
+    <rect class="tag-domain" x="0" y="0" width="100" height="24" rx="4" />
+    <text class="tag-domain-text" x="50" y="16" text-anchor="middle">Data Science</text>
+  </g>
+  <!-- Machine Learning -->
+  <g transform="translate(483, 258)">
+    <rect class="tag-domain" x="0" y="0" width="120" height="24" rx="4" />
+    <text class="tag-domain-text" x="60" y="16" text-anchor="middle">Machine Learning</text>
+  </g>
+  <!-- Data Engineering -->
+  <g transform="translate(611, 258)">
+    <rect class="tag-domain" x="0" y="0" width="125" height="24" rx="4" />
+    <text class="tag-domain-text" x="62.5" y="16" text-anchor="middle">Data Engineering</text>
+  </g>
+
+  <!-- Currently Learning -->
+  <text class="label-text" x="375" y="312">CURRENT FOCUS &amp; LEARNING</text>
+  <!-- Focus tags -->
+  <!-- FastAPI -->
+  <g transform="translate(375, 322)">
+    <rect class="tag-learning" x="0" y="0" width="70" height="24" rx="4" />
+    <text class="tag-learning-text" x="35" y="16" text-anchor="middle">FastAPI</text>
+  </g>
+  <!-- Backend Development -->
+  <g transform="translate(453, 322)">
+    <rect class="tag-learning" x="0" y="0" width="140" height="24" rx="4" />
+    <text class="tag-learning-text" x="70" y="16" text-anchor="middle">Backend Development</text>
+  </g>
+  <!-- Advanced ML -->
+  <g transform="translate(601, 322)">
+    <rect class="tag-learning" x="0" y="0" width="105" height="24" rx="4" />
+    <text class="tag-learning-text" x="52.5" y="16" text-anchor="middle">Advanced ML</text>
+  </g>
+
+</svg>
