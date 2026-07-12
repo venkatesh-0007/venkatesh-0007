@@ -117,33 +117,9 @@ Data Science • Machine Learning • Data Engineering
 # Connect With Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white">
-    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-f1f5f9?style=for-the-badge&logo=linkedin&logoColor=0f172a">
-    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </picture>
-</a>
-<a href="mailto:amudalapalli.venkateswararao@gmail.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=white">
-    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Gmail-f1f5f9?style=for-the-badge&logo=gmail&logoColor=0f172a">
-    <img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </picture>
-</a>
-<a href="https://venkatesh-0007.github.io/portfolio/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white">
-    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Portfolio-f1f5f9?style=for-the-badge&logo=vercel&logoColor=0f172a">
-    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
-  </picture>
-</a>
-<a href="https://www.codechef.com/users/one_cut">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/CodeChef-111111?style=for-the-badge&logo=codechef&logoColor=white">
-    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/CodeChef-f1f5f9?style=for-the-badge&logo=codechef&logoColor=0f172a">
-    <img src="https://img.shields.io/badge/CodeChef-111111?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef">
-  </picture>
-</a>
+<a href="https://www.linkedin.com/in/amudalapalli-venkateswara-rao-968b5a26a"><img src="connect_linkedin.svg" alt="LinkedIn" width="170" height="42"></a>
+<a href="mailto:amudalapalli.venkateswararao@gmail.com"><img src="connect_gmail.svg" alt="Gmail" width="170" height="42"></a>
+<a href="https://venkatesh-0007.github.io/portfolio/"><img src="connect_portfolio.svg" alt="Portfolio" width="170" height="42"></a>
+<a href="https://www.codechef.com/users/one_cut"><img src="connect_codechef.svg" alt="CodeChef" width="170" height="42"></a>
 </p>
 
