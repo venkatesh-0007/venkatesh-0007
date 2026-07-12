@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 24" width="100%" height="100%">
+  <defs>
+    <filter id="glow-opt1" x="-30%" y="-150%" width="160%" height="400%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0.8 0" in="blur" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style type="text/css">
+      .div-bracket {
+        fill: #ffffff;
+        font-family: 'Oxanium', monospace;
+        font-size: 16px;
+        text-anchor: middle;
+        font-weight: 700;
+        filter: url(#glow-opt1);
+      }
+      .stagger-block {
+        fill: rgba(255, 255, 255, 0.15);
+        animation: pulse-opt1 2.4s ease-in-out infinite;
+      }
+      @keyframes pulse-opt1 {
+        0%, 100% { fill: rgba(255, 255, 255, 0.15); filter: none; }
+        20% { fill: #ffffff; filter: url(#glow-opt1); }
+        40%, 80% { fill: rgba(255, 255, 255, 0.15); filter: none; }
+      }
+      @media (prefers-color-scheme: light) {
+        .div-bracket {
+          fill: #0f172a;
+          filter: drop-shadow(0px 0px 3px rgba(15, 23, 42, 0.35));
+        }
+        .stagger-block {
+          fill: rgba(15, 23, 42, 0.15);
+        }
+        @keyframes pulse-opt1 {
+          0%, 100% { fill: rgba(15, 23, 42, 0.15); filter: none; }
+          20% { fill: #0f172a; filter: drop-shadow(0px 0px 3px rgba(15, 23, 42, 0.3)); }
+          40%, 80% { fill: rgba(15, 23, 42, 0.15); filter: none; }
+        }
+      }
+      /* Stagger Delays */
+      .sb-1 { animation-delay: 0.0s; } .sb-2 { animation-delay: 0.1s; }
+      .sb-3 { animation-delay: 0.2s; } .sb-4 { animation-delay: 0.3s; }
+      .sb-5 { animation-delay: 0.4s; } .sb-6 { animation-delay: 0.5s; }
+      .sb-7 { animation-delay: 0.6s; } .sb-8 { animation-delay: 0.7s; }
+      .sb-9 { animation-delay: 0.8s; } .sb-10 { animation-delay: 0.9s; }
+      .sb-11 { animation-delay: 1.0s; } .sb-12 { animation-delay: 1.1s; }
+      .sb-13 { animation-delay: 1.2s; } .sb-14 { animation-delay: 1.3s; }
+      .sb-15 { animation-delay: 1.4s; } .sb-16 { animation-delay: 1.5s; }
+      .sb-17 { animation-delay: 1.6s; } .sb-18 { animation-delay: 1.7s; }
+      .sb-19 { animation-delay: 1.8s; } .sb-20 { animation-delay: 1.9s; }
+      .sb-21 { animation-delay: 2.0s; } .sb-22 { animation-delay: 2.1s; }
+      .sb-23 { animation-delay: 2.2s; } .sb-24 { animation-delay: 2.3s; }
+    </style>
+  </defs>
+  <text class="div-bracket" x="12" y="17">[</text>
+  <text class="div-bracket" x="788" y="17">]</text>
+  <g>
+    <rect class="stagger-block sb-1" x="26" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-2" x="58" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-3" x="90" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-4" x="123" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-5" x="155" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-6" x="187" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-7" x="219" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-8" x="251" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-9" x="283" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-10" x="316" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-11" x="348" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-12" x="380" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-13" x="412" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-14" x="444" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-15" x="476" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-16" x="509" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-17" x="541" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-18" x="573" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-19" x="605" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-20" x="637" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-21" x="669" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-22" x="702" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-23" x="734" y="8" width="8" height="8" rx="1.5" />
+    <rect class="stagger-block sb-24" x="766" y="8" width="8" height="8" rx="1.5" />
+  </g>
+</svg>

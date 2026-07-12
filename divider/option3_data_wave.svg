@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 24" width="100%" height="100%">
+  <defs>
+    <filter id="glow-opt3" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0 0.8 0" in="blur" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style type="text/css">
+      .wave-bar {
+        fill: rgba(255, 255, 255, 0.18);
+        transform-origin: center;
+        animation: pulse-wave 2.2s ease-in-out infinite;
+      }
+      
+      @keyframes pulse-wave {
+        0%, 100% { transform: scaleY(0.45); fill: rgba(255, 255, 255, 0.18); filter: none; }
+        50% { transform: scaleY(1.3); fill: #ffffff; filter: url(#glow-opt3); }
+      }
+
+      /* Light Theme support */
+      @media (prefers-color-scheme: light) {
+        .wave-bar {
+          fill: rgba(15, 23, 42, 0.15);
+        }
+        @keyframes pulse-wave {
+          0%, 100% { transform: scaleY(0.45); fill: rgba(15, 23, 42, 0.15); filter: none; }
+          50% { transform: scaleY(1.3); fill: #0f172a; filter: drop-shadow(0px 0px 2.5px rgba(15, 23, 42, 0.35)); }
+        }
+      }
+
+      /* Wave delays to make scanning ripple effect */
+      .wb-1 { animation-delay: 0.0s; } .wb-2 { animation-delay: 0.06s; }
+      .wb-3 { animation-delay: 0.12s; } .wb-4 { animation-delay: 0.18s; }
+      .wb-5 { animation-delay: 0.24s; } .wb-6 { animation-delay: 0.3s; }
+      .wb-7 { animation-delay: 0.36s; } .wb-8 { animation-delay: 0.42s; }
+      .wb-9 { animation-delay: 0.48s; } .wb-10 { animation-delay: 0.54s; }
+      .wb-11 { animation-delay: 0.6s; } .wb-12 { animation-delay: 0.66s; }
+      .wb-13 { animation-delay: 0.72s; } .wb-14 { animation-delay: 0.78s; }
+      .wb-15 { animation-delay: 0.84s; } .wb-16 { animation-delay: 0.9s; }
+      .wb-17 { animation-delay: 0.96s; } .wb-18 { animation-delay: 1.02s; }
+      .wb-19 { animation-delay: 1.08s; } .wb-20 { animation-delay: 1.14s; }
+      .wb-21 { animation-delay: 1.2s; } .wb-22 { animation-delay: 1.26s; }
+      .wb-23 { animation-delay: 1.32s; } .wb-24 { animation-delay: 1.38s; }
+      .wb-25 { animation-delay: 1.44s; } .wb-26 { animation-delay: 1.5s; }
+      .wb-27 { animation-delay: 1.56s; } .wb-28 { animation-delay: 1.62s; }
+      .wb-29 { animation-delay: 1.68s; } .wb-30 { animation-delay: 1.74s; }
+    </style>
+  </defs>
+
+  <g transform="translate(10, 0)">
+    <!-- Set of 30 bars centered around Y=12 -->
+    <rect class="wave-bar wb-1" x="50" y="4" width="6" height="16" rx="3" />
+    <rect class="wave-bar wb-2" x="72" y="3" width="6" height="18" rx="3" />
+    <rect class="wave-bar wb-3" x="94" y="5" width="6" height="14" rx="3" />
+    <rect class="wave-bar wb-4" x="116" y="2" width="6" height="20" rx="3" />
+    <rect class="wave-bar wb-5" x="138" y="4" width="6" height="16" rx="3" />
+    <rect class="wave-bar wb-6" x="160" y="6" width="6" height="12" rx="3" />
+    <rect class="wave-bar wb-7" x="182" y="3" width="6" height="18" rx="3" />
+    <rect class="wave-bar wb-8" x="204" y="5" width="6" height="14" rx="3" />
+    <rect class="wave-bar wb-9" x="226" y="1" width="6" height="22" rx="3" />
+    <rect class="wave-bar wb-10" x="248" y="4" width="6" height="16" rx="3" />
+    <rect class="wave-bar wb-11" x="270" y="6" width="6" height="12" rx="3" />
+    <rect class="wave-bar wb-12" x="292" y="3" width="6" height="18" rx="3" />
+    <rect class="wave-bar wb-13" x="314" y="5" width="6" height="14" rx="3" />
+    <rect class="wave-bar wb-14" x="336" y="2" width="6" height="20" rx="3" />
+    <rect class="wave-bar wb-15" x="358" y="4" width="6" height="16" rx="3" />
+    <rect class="wave-bar wb-16" x="380" y="4" width="6" height="16" rx="3" />
+    <rect class="wave-bar wb-17" x="402" y="2" width="6" height="20" rx="3" />
+    <rect class="wave-bar wb-18" x="424" y="5" width="6" height="14" rx="3" />
+    <rect class="wave-bar wb-19" x="446" y="3" width="6" height="18" rx="3" />
+    <rect class="wave-bar wb-20" x="468" y="6" width="6" height="12" rx="3" />
+    <rect class="wave-bar wb-21" x="490" y="4" width="6" height="16" rx="3" />
+    <rect class="wave-bar wb-22" x="512" y="1" width="6" height="22" rx="3" />
+    <rect class="wave-bar wb-23" x="534" y="5" width="6" height="14" rx="3" />
+    <rect class="wave-bar wb-24" x="556" y="3" width="6" height="18" rx="3" />
+    <rect class="wave-bar wb-25" x="578" y="6" width="6" height="12" rx="3" />
+    <rect class="wave-bar wb-26" x="600" y="4" width="6" height="16" rx="3" />
+    <rect class="wave-bar wb-27" x="622" y="2" width="6" height="20" rx="3" />
+    <rect class="wave-bar wb-28" x="644" y="5" width="6" height="14" rx="3" />
+    <rect class="wave-bar wb-29" x="666" y="3" width="6" height="18" rx="3" />
+    <rect class="wave-bar wb-30" x="688" y="4" width="6" height="16" rx="3" />
+  </g>
+</svg>

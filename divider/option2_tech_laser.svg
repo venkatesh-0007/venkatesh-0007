@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 24" width="100%" height="100%">
+  <defs>
+    <filter id="glow-opt2" x="-30%" y="-150%" width="160%" height="400%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0.8 0" in="blur" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients for Laser Fading -->
+    <linearGradient id="laser-left" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.0)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.8)" />
+    </linearGradient>
+    <linearGradient id="laser-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.8)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.0)" />
+    </linearGradient>
+
+    <style type="text/css">
+      .laser-line-l {
+        stroke: url(#laser-left);
+        stroke-width: 1.2;
+      }
+      .laser-line-r {
+        stroke: url(#laser-right);
+        stroke-width: 1.2;
+      }
+      .laser-center-line {
+        stroke: #ffffff;
+        stroke-width: 1.5;
+        filter: url(#glow-opt2);
+      }
+      .target-bracket {
+        stroke: rgba(255, 255, 255, 0.45);
+        stroke-width: 1;
+        fill: none;
+      }
+      .target-core {
+        fill: #ffffff;
+        animation: pulse-core 2s ease-in-out infinite;
+      }
+      @keyframes pulse-core {
+        0%, 100% { transform: scale(1); opacity: 0.4; filter: none; }
+        50% { transform: scale(1.3); opacity: 1; filter: url(#glow-opt2); }
+      }
+
+      /* Light Theme overrides */
+      @media (prefers-color-scheme: light) {
+        #laser-left stop:nth-child(2) { stop-color: rgba(15, 23, 42, 0.8); }
+        #laser-right stop:nth-child(1) { stop-color: rgba(15, 23, 42, 0.8); }
+        .laser-center-line {
+          stroke: #0f172a;
+          filter: drop-shadow(0px 0px 2.5px rgba(15, 23, 42, 0.35));
+        }
+        .target-bracket {
+          stroke: rgba(15, 23, 42, 0.4);
+        }
+        .target-core {
+          fill: #0f172a;
+        }
+        @keyframes pulse-core {
+          0%, 100% { transform: scale(1); opacity: 0.5; filter: none; }
+          50% { transform: scale(1.3); opacity: 1; filter: drop-shadow(0px 0px 2px rgba(15, 23, 42, 0.4)); }
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Left Laser Fader -->
+  <line class="laser-line-l" x1="40" y1="12" x2="350" y2="12" />
+
+  <!-- Right Laser Fader -->
+  <line class="laser-line-r" x1="450" y1="12" x2="760" y2="12" />
+
+  <!-- Center Laser lines near core -->
+  <line class="laser-center-line" x1="350" y1="12" x2="380" y2="12" />
+  <line class="laser-center-line" x1="420" y1="12" x2="450" y2="12" />
+
+  <!-- Center Target Graphic -->
+  <g transform="translate(400, 12)">
+    <!-- Brackets -->
+    <path class="target-bracket" d="M -15 -8 L -19 -8 L -19 8 L -15 8" />
+    <path class="target-bracket" d="M 15 -8 L 19 -8 L 19 8 L 15 8" />
+    
+    <!-- Rotating diamond -->
+    <rect class="target-core" x="-4.5" y="-4.5" width="9" height="9" transform="rotate(45)" rx="1" />
+  </g>
+</svg>
