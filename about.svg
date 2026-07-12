@@ -10,7 +10,7 @@
 
     <!-- Grid Pattern for Panel Background -->
     <pattern id="grid-pattern" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.75" fill="rgba(255, 255, 255, 0.08)" />
+      <circle cx="2" cy="2" r="0.75" fill="rgba(255, 255, 255, 0.06)" />
     </pattern>
 
     <!-- Glowing Filters -->
@@ -26,12 +26,12 @@
       </feMerge>
     </filter>
 
-    <filter id="teal-glow" x="-30%" y="-30%" width="160%" height="160%">
+    <filter id="white-glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="4" result="blur" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0.02
-                                           0 0 0 0 0.71
-                                           0 0 0 0 0.83
-                                           0 0 0 0 0.6 0" in="blur" result="glow" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0 1
+                                           0 0 0 0 0.5 0" in="blur" result="glow" />
       <feMerge>
         <feMergeNode in="glow" />
         <feMergeNode in="SourceGraphic" />
@@ -65,7 +65,6 @@
         font-weight: 600;
         fill: #a955f7;
         letter-spacing: 1.5px;
-        filter: drop-shadow(0px 0px 1px rgba(169, 85, 247, 0.3));
       }
       .value-text {
         font-family: 'Inter', sans-serif;
@@ -82,7 +81,7 @@
       
       /* Panels (Dark Mode) */
       .panel-border {
-        fill: rgba(255, 255, 255, 0.015);
+        fill: rgba(255, 255, 255, 0.01);
         stroke: rgba(255, 255, 255, 0.08);
         stroke-width: 1;
       }
@@ -90,7 +89,7 @@
         fill: url(#grid-pattern);
       }
       .panel-header-bg {
-        fill: rgba(255, 255, 255, 0.02);
+        fill: rgba(255, 255, 255, 0.015);
         stroke: rgba(255, 255, 255, 0.08);
         stroke-width: 1;
       }
@@ -98,35 +97,41 @@
         font-family: 'Oxanium', monospace;
         font-size: 10px;
         font-weight: 600;
-        fill: rgba(255, 255, 255, 0.55);
+        fill: rgba(255, 255, 255, 0.5);
         letter-spacing: 1px;
       }
       .panel-stat-text {
         font-family: 'Fira Code', monospace;
         font-size: 9px;
-        fill: rgba(255, 255, 255, 0.45);
+        fill: rgba(255, 255, 255, 0.4);
+      }
+      .header-dot-left {
+        fill: #a955f7;
+      }
+      .header-dot-right {
+        fill: #ffffff;
       }
 
       /* Network visualization elements (Dark Mode) */
       .net-line-purple {
-        stroke: rgba(169, 85, 247, 0.25);
+        stroke: rgba(169, 85, 247, 0.2);
       }
-      .net-line-teal {
-        stroke: rgba(6, 182, 212, 0.25);
+      .net-line-mono {
+        stroke: rgba(255, 255, 255, 0.15);
       }
       .net-node-purple {
         fill: #a955f7;
       }
       .net-node-purple-ring {
         stroke: #a955f7;
-        opacity: 0.4;
+        opacity: 0.35;
       }
-      .net-node-teal {
-        fill: #06b6d4;
+      .net-node-mono {
+        fill: #ffffff;
       }
-      .net-node-teal-ring {
-        stroke: #06b6d4;
-        opacity: 0.4;
+      .net-node-mono-ring {
+        stroke: #ffffff;
+        opacity: 0.3;
       }
 
       /* Tags (Dark Mode) */
@@ -142,22 +147,19 @@
         fill: #e9d5ff;
       }
       .tag-learning {
-        fill: rgba(6, 182, 212, 0.08);
-        stroke: rgba(6, 182, 212, 0.4);
+        fill: rgba(255, 255, 255, 0.06);
+        stroke: rgba(255, 255, 255, 0.3);
         stroke-width: 1px;
       }
       .tag-learning-text {
         font-family: 'Oxanium', monospace;
         font-size: 11px;
         font-weight: 600;
-        fill: #cffafe;
+        fill: #ffffff;
       }
 
       /* Adaptivity for prefers-color-scheme: light */
       @media (prefers-color-scheme: light) {
-        .card-bg {
-          fill: none;
-        }
         .card-border {
           stroke: rgba(15, 23, 42, 0.08);
         }
@@ -167,7 +169,6 @@
         }
         .label-text {
           fill: #7c3aed;
-          filter: none;
         }
         .value-text {
           fill: #0f172a;
@@ -190,7 +191,13 @@
           fill: rgba(15, 23, 42, 0.6);
         }
         .panel-stat-text {
-          fill: rgba(15, 23, 42, 0.55);
+          fill: rgba(15, 23, 42, 0.5);
+        }
+        .header-dot-left {
+          fill: #7c3aed;
+        }
+        .header-dot-right {
+          fill: #0f172a;
         }
         .tag-domain {
           fill: rgba(124, 58, 237, 0.04);
@@ -200,33 +207,33 @@
           fill: #6d28d9;
         }
         .tag-learning {
-          fill: rgba(8, 145, 178, 0.04);
-          stroke: rgba(8, 145, 178, 0.25);
+          fill: rgba(15, 23, 42, 0.02);
+          stroke: rgba(15, 23, 42, 0.25);
         }
         .tag-learning-text {
-          fill: #0e7490;
+          fill: #0f172a;
         }
         .net-line-purple {
-          stroke: rgba(124, 58, 237, 0.16);
+          stroke: rgba(124, 58, 237, 0.14);
         }
-        .net-line-teal {
-          stroke: rgba(8, 145, 178, 0.16);
+        .net-line-mono {
+          stroke: rgba(15, 23, 42, 0.12);
         }
         .net-node-purple {
           fill: #7c3aed;
-          filter: drop-shadow(0px 0px 3px rgba(124, 58, 237, 0.4));
+          filter: drop-shadow(0px 0px 3px rgba(124, 58, 237, 0.35));
         }
         .net-node-purple-ring {
           stroke: #7c3aed;
-          opacity: 0.3;
+          opacity: 0.25;
         }
-        .net-node-teal {
-          fill: #0891b2;
-          filter: drop-shadow(0px 0px 3px rgba(8, 145, 178, 0.4));
+        .net-node-mono {
+          fill: #0f172a;
+          filter: drop-shadow(0px 0px 3px rgba(15, 23, 42, 0.25));
         }
-        .net-node-teal-ring {
-          stroke: #0891b2;
-          opacity: 0.3;
+        .net-node-mono-ring {
+          stroke: #0f172a;
+          opacity: 0.2;
         }
       }
     </style>
@@ -243,39 +250,39 @@
   <path class="panel-header-bg" d="M 25,33 A 8,8 0 0,1 33,25 L 327,25 A 8,8 0 0,1 335,33 L 335,53 L 25,53 Z" />
   <text class="panel-header-text" x="40" y="42">[ NN_MODEL.VIZ ]</text>
   <!-- Cyber-decoration dot -->
-  <circle cx="315" cy="39" r="3.5" fill="#a955f7" filter="url(#purple-glow)" />
+  <circle class="header-dot-left" cx="315" cy="39" r="3.5" filter="url(#purple-glow)" />
 
   <!-- Neural Net Visual Graphic -->
   <g>
     <!-- Connections -->
   <line class="net-line-purple" x1="90" y1="125" x2="180" y2="95" stroke-width="1.2" />
-  <line class="net-line-teal" x1="90" y1="125" x2="180" y2="165" stroke-width="1.2" />
+  <line class="net-line-mono" x1="90" y1="125" x2="180" y2="165" stroke-width="1.2" />
   <line class="net-line-purple" x1="90" y1="125" x2="180" y2="235" stroke-width="1.2" />
-  <line class="net-line-teal" x1="90" y1="125" x2="180" y2="305" stroke-width="1.2" />
-  <line class="net-line-teal" x1="90" y1="200" x2="180" y2="95" stroke-width="1.2" />
+  <line class="net-line-mono" x1="90" y1="125" x2="180" y2="305" stroke-width="1.2" />
+  <line class="net-line-mono" x1="90" y1="200" x2="180" y2="95" stroke-width="1.2" />
   <line class="net-line-purple" x1="90" y1="200" x2="180" y2="165" stroke-width="1.2" />
-  <line class="net-line-teal" x1="90" y1="200" x2="180" y2="235" stroke-width="1.2" />
+  <line class="net-line-mono" x1="90" y1="200" x2="180" y2="235" stroke-width="1.2" />
   <line class="net-line-purple" x1="90" y1="200" x2="180" y2="305" stroke-width="1.2" />
   <line class="net-line-purple" x1="90" y1="275" x2="180" y2="95" stroke-width="1.2" />
-  <line class="net-line-teal" x1="90" y1="275" x2="180" y2="165" stroke-width="1.2" />
+  <line class="net-line-mono" x1="90" y1="275" x2="180" y2="165" stroke-width="1.2" />
   <line class="net-line-purple" x1="90" y1="275" x2="180" y2="235" stroke-width="1.2" />
-  <line class="net-line-teal" x1="90" y1="275" x2="180" y2="305" stroke-width="1.2" />
+  <line class="net-line-mono" x1="90" y1="275" x2="180" y2="305" stroke-width="1.2" />
   <line class="net-line-purple" x1="180" y1="95" x2="270" y2="150" stroke-width="1.2" />
-  <line class="net-line-teal" x1="180" y1="95" x2="270" y2="250" stroke-width="1.2" />
-  <line class="net-line-teal" x1="180" y1="165" x2="270" y2="150" stroke-width="1.2" />
+  <line class="net-line-mono" x1="180" y1="95" x2="270" y2="250" stroke-width="1.2" />
+  <line class="net-line-mono" x1="180" y1="165" x2="270" y2="150" stroke-width="1.2" />
   <line class="net-line-purple" x1="180" y1="165" x2="270" y2="250" stroke-width="1.2" />
   <line class="net-line-purple" x1="180" y1="235" x2="270" y2="150" stroke-width="1.2" />
-  <line class="net-line-teal" x1="180" y1="235" x2="270" y2="250" stroke-width="1.2" />
-  <line class="net-line-teal" x1="180" y1="305" x2="270" y2="150" stroke-width="1.2" />
+  <line class="net-line-mono" x1="180" y1="235" x2="270" y2="250" stroke-width="1.2" />
+  <line class="net-line-mono" x1="180" y1="305" x2="270" y2="150" stroke-width="1.2" />
   <line class="net-line-purple" x1="180" y1="305" x2="270" y2="250" stroke-width="1.2" />
 
     <!-- Nodes -->
-  <circle class="net-node-teal-ring" cx="90" cy="125" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-teal" cx="90" cy="125" r="5.5" filter="url(#teal-glow)" />
-  <circle class="net-node-teal-ring" cx="90" cy="200" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-teal" cx="90" cy="200" r="5.5" filter="url(#teal-glow)" />
-  <circle class="net-node-teal-ring" cx="90" cy="275" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-teal" cx="90" cy="275" r="5.5" filter="url(#teal-glow)" />
+  <circle class="net-node-mono-ring" cx="90" cy="125" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-mono" cx="90" cy="125" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-mono-ring" cx="90" cy="200" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-mono" cx="90" cy="200" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-mono-ring" cx="90" cy="275" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-mono" cx="90" cy="275" r="5.5" filter="url(#white-glow)" />
   <circle class="net-node-purple-ring" cx="180" cy="95" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
   <circle class="net-node-purple" cx="180" cy="95" r="5.5" filter="url(#purple-glow)" />
   <circle class="net-node-purple-ring" cx="180" cy="165" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
@@ -284,10 +291,10 @@
   <circle class="net-node-purple" cx="180" cy="235" r="5.5" filter="url(#purple-glow)" />
   <circle class="net-node-purple-ring" cx="180" cy="305" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
   <circle class="net-node-purple" cx="180" cy="305" r="5.5" filter="url(#purple-glow)" />
-  <circle class="net-node-teal-ring" cx="270" cy="150" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-teal" cx="270" cy="150" r="5.5" filter="url(#teal-glow)" />
-  <circle class="net-node-teal-ring" cx="270" cy="250" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-teal" cx="270" cy="250" r="5.5" filter="url(#teal-glow)" />
+  <circle class="net-node-mono-ring" cx="270" cy="150" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-mono" cx="270" cy="150" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-mono-ring" cx="270" cy="250" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
+  <circle class="net-node-mono" cx="270" cy="250" r="5.5" filter="url(#white-glow)" />
   </g>
 
   <!-- Bottom Panel Metrics -->
@@ -300,7 +307,7 @@
   <!-- Panel Header -->
   <path class="panel-header-bg" d="M 355,33 A 8,8 0 0,1 363,25 L 767,25 A 8,8 0 0,1 775,33 L 775,53 L 355,53 Z" />
   <text class="panel-header-text" x="370" y="42">[ IDENTITY_DECRYPTED ]</text>
-  <circle cx="755" cy="39" r="3.5" fill="#06b6d4" filter="url(#teal-glow)" />
+  <circle class="header-dot-right" cx="755" cy="39" r="3.5" filter="url(#white-glow)" />
 
   <!-- Title "ABOUT ME" -->
   <text class="title-text" x="375" y="90">ABOUT ME</text>
