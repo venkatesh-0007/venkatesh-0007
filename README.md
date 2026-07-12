@@ -21,17 +21,23 @@ AI Automation • Machine Learning • Data Engineering
   <img src="divider.svg?v=2" width="100%">
 </p>
 
-
+<br><br>
 
 # About Me
+
+<br>
 
 <p align="center">
   <img src="about.svg?v=2" width="100%">
 </p>
 
+<br><br>
+
 <p align="center">
   <img src="divider.svg" alt="Cosmic Divider" width="100%">
 </p>
+
+<br><br>
 
 # Tech Stack
 
@@ -71,11 +77,13 @@ AI Automation • Machine Learning • Data Engineering
 ![Jupyter](https://img.shields.io/badge/Jupyter-111111?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-111111?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-<br>
+<br><br>
 
 <p align="center">
   <img src="divider.svg?v=2" alt="Cosmic Divider" width="100%">
 </p>
+
+<br><br>
 
 # GitHub Insights
 
@@ -98,9 +106,13 @@ AI Automation • Machine Learning • Data Engineering
 
 </p> -->
 
+<br><br>
+
 <p align="center">
   <img src="divider.svg?v=2" alt="Cosmic Divider" width="100%">
 </p>
+
+<br><br>
 
 # Connect With Me
 
