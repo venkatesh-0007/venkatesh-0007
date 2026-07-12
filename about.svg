@@ -2,8 +2,8 @@
   <defs>
     <!-- Glassmorphism Border Gradient (Dark Mode) -->
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.12)" />
-      <stop offset="45%" stop-color="rgba(255, 255, 255, 0.02)" />
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.15)" />
+      <stop offset="45%" stop-color="rgba(255, 255, 255, 0.03)" />
       <stop offset="70%" stop-color="rgba(255, 255, 255, 0.01)" />
       <stop offset="100%" stop-color="rgba(255, 255, 255, 0.08)" />
     </linearGradient>
@@ -14,24 +14,12 @@
     </pattern>
 
     <!-- Glowing Filters -->
-    <filter id="purple-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4.5" result="blur" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0.66
-                                           0 0 0 0 0.33
-                                           0 0 0 0 0.97
-                                           0 0 0 0 0.6 0" in="blur" result="glow" />
-      <feMerge>
-        <feMergeNode in="glow" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
     <filter id="white-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feGaussianBlur stdDeviation="4.5" result="blur" />
       <feColorMatrix type="matrix" values="0 0 0 0 1
                                            0 0 0 0 1
                                            0 0 0 0 1
-                                           0 0 0 0 0.5 0" in="blur" result="glow" />
+                                           0 0 0 0 0.85 0" in="blur" result="glow" />
       <feMerge>
         <feMergeNode in="glow" />
         <feMergeNode in="SourceGraphic" />
@@ -57,13 +45,13 @@
         font-size: 24px;
         font-weight: 700;
         fill: #ffffff;
-        filter: url(#purple-glow);
+        filter: url(#white-glow);
       }
       .label-text {
         font-family: 'Oxanium', monospace;
         font-size: 10px;
         font-weight: 600;
-        fill: #a955f7;
+        fill: rgba(255, 255, 255, 0.65);
         letter-spacing: 1.5px;
       }
       .value-text {
@@ -81,7 +69,7 @@
       
       /* Panels (Dark Mode) */
       .panel-border {
-        fill: rgba(255, 255, 255, 0.01);
+        fill: rgba(255, 255, 255, 0.015);
         stroke: rgba(255, 255, 255, 0.08);
         stroke-width: 1;
       }
@@ -89,7 +77,7 @@
         fill: url(#grid-pattern);
       }
       .panel-header-bg {
-        fill: rgba(255, 255, 255, 0.015);
+        fill: rgba(255, 255, 255, 0.02);
         stroke: rgba(255, 255, 255, 0.08);
         stroke-width: 1;
       }
@@ -97,78 +85,105 @@
         font-family: 'Oxanium', monospace;
         font-size: 10px;
         font-weight: 600;
-        fill: rgba(255, 255, 255, 0.5);
+        fill: rgba(255, 255, 255, 0.55);
         letter-spacing: 1px;
       }
       .panel-stat-text {
         font-family: 'Fira Code', monospace;
         font-size: 9px;
-        fill: rgba(255, 255, 255, 0.4);
+        fill: rgba(255, 255, 255, 0.45);
       }
       .header-dot-left {
-        fill: #a955f7;
+        fill: #ffffff;
+        filter: url(#white-glow);
       }
       .header-dot-right {
         fill: #ffffff;
+        filter: url(#white-glow);
       }
 
       /* Network visualization elements (Dark Mode) */
-      .net-line-purple {
-        stroke: rgba(169, 85, 247, 0.2);
+      .net-line-static {
+        stroke: rgba(255, 255, 255, 0.12);
       }
-      .net-line-mono {
-        stroke: rgba(255, 255, 255, 0.15);
+      .net-line-flow {
+        stroke: rgba(255, 255, 255, 0.35);
+        stroke-dasharray: 6 6;
+        animation: flow-anim 2s linear infinite;
       }
-      .net-node-purple {
-        fill: #a955f7;
-      }
-      .net-node-purple-ring {
-        stroke: #a955f7;
-        opacity: 0.35;
-      }
-      .net-node-mono {
+      .net-node-core {
         fill: #ffffff;
       }
-      .net-node-mono-ring {
+      .net-node-ring {
         stroke: #ffffff;
-        opacity: 0.3;
       }
 
       /* Tags (Dark Mode) */
       .tag-domain {
-        fill: rgba(169, 85, 247, 0.08);
-        stroke: rgba(169, 85, 247, 0.4);
+        fill: rgba(255, 255, 255, 0.06);
+        stroke: rgba(255, 255, 255, 0.45);
         stroke-width: 1px;
       }
       .tag-domain-text {
         font-family: 'Oxanium', monospace;
         font-size: 11px;
         font-weight: 600;
-        fill: #e9d5ff;
+        fill: #ffffff;
       }
       .tag-learning {
-        fill: rgba(255, 255, 255, 0.06);
-        stroke: rgba(255, 255, 255, 0.3);
+        fill: rgba(255, 255, 255, 0.03);
+        stroke: rgba(255, 255, 255, 0.25);
         stroke-width: 1px;
       }
       .tag-learning-text {
         font-family: 'Oxanium', monospace;
         font-size: 11px;
         font-weight: 600;
-        fill: #ffffff;
+        fill: rgba(255, 255, 255, 0.85);
+      }
+
+      /* ANIMATIONS */
+      @keyframes flow-anim {
+        to {
+          stroke-dashoffset: -20;
+        }
+      }
+      @keyframes pulse-opacity-1 {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.65; }
+      }
+      @keyframes pulse-opacity-2 {
+        0%, 100% { opacity: 0.25; }
+        50% { opacity: 0.75; }
+      }
+      @keyframes pulse-opacity-3 {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.85; }
+      }
+
+      .net-node-ring-1 {
+        animation: pulse-opacity-1 2.2s ease-in-out infinite;
+      }
+      .net-node-ring-2 {
+        animation: pulse-opacity-2 2.7s ease-in-out infinite;
+        animation-delay: 0.4s;
+      }
+      .net-node-ring-3 {
+        animation: pulse-opacity-3 3.2s ease-in-out infinite;
+        animation-delay: 0.8s;
       }
 
       /* Adaptivity for prefers-color-scheme: light */
       @media (prefers-color-scheme: light) {
         .card-border {
-          stroke: rgba(15, 23, 42, 0.08);
+          stroke: rgba(15, 23, 42, 0.1);
         }
         .title-text {
           fill: #0f172a;
-          filter: drop-shadow(0px 0px 4px rgba(138, 91, 230, 0.25));
+          filter: drop-shadow(0px 0px 3px rgba(15, 23, 42, 0.3));
         }
         .label-text {
-          fill: #7c3aed;
+          fill: rgba(15, 23, 42, 0.65);
         }
         .value-text {
           fill: #0f172a;
@@ -194,46 +209,39 @@
           fill: rgba(15, 23, 42, 0.5);
         }
         .header-dot-left {
-          fill: #7c3aed;
+          fill: #0f172a;
+          filter: none;
         }
         .header-dot-right {
           fill: #0f172a;
+          filter: none;
         }
         .tag-domain {
-          fill: rgba(124, 58, 237, 0.04);
-          stroke: rgba(124, 58, 237, 0.25);
+          fill: rgba(15, 23, 42, 0.03);
+          stroke: rgba(15, 23, 42, 0.3);
         }
         .tag-domain-text {
-          fill: #6d28d9;
+          fill: #0f172a;
         }
         .tag-learning {
-          fill: rgba(15, 23, 42, 0.02);
-          stroke: rgba(15, 23, 42, 0.25);
+          fill: rgba(15, 23, 42, 0.01);
+          stroke: rgba(15, 23, 42, 0.18);
         }
         .tag-learning-text {
-          fill: #0f172a;
+          fill: rgba(15, 23, 42, 0.8);
         }
-        .net-line-purple {
-          stroke: rgba(124, 58, 237, 0.14);
-        }
-        .net-line-mono {
+        .net-line-static {
           stroke: rgba(15, 23, 42, 0.12);
         }
-        .net-node-purple {
-          fill: #7c3aed;
-          filter: drop-shadow(0px 0px 3px rgba(124, 58, 237, 0.35));
+        .net-line-flow {
+          stroke: rgba(15, 23, 42, 0.28);
         }
-        .net-node-purple-ring {
-          stroke: #7c3aed;
-          opacity: 0.25;
-        }
-        .net-node-mono {
+        .net-node-core {
           fill: #0f172a;
-          filter: drop-shadow(0px 0px 3px rgba(15, 23, 42, 0.25));
+          filter: drop-shadow(0px 0px 3px rgba(15, 23, 42, 0.3));
         }
-        .net-node-mono-ring {
+        .net-node-ring {
           stroke: #0f172a;
-          opacity: 0.2;
         }
       }
     </style>
@@ -250,57 +258,57 @@
   <path class="panel-header-bg" d="M 25,33 A 8,8 0 0,1 33,25 L 327,25 A 8,8 0 0,1 335,33 L 335,53 L 25,53 Z" />
   <text class="panel-header-text" x="40" y="42">[ NN_MODEL.VIZ ]</text>
   <!-- Cyber-decoration dot -->
-  <circle class="header-dot-left" cx="315" cy="39" r="3.5" filter="url(#purple-glow)" />
+  <circle class="header-dot-left" cx="315" cy="39" r="3.5" />
 
   <!-- Neural Net Visual Graphic -->
   <g>
     <!-- Connections -->
-  <line class="net-line-purple" x1="90" y1="110" x2="180" y2="80" stroke-width="1.2" />
-  <line class="net-line-mono" x1="90" y1="110" x2="180" y2="150" stroke-width="1.2" />
-  <line class="net-line-purple" x1="90" y1="110" x2="180" y2="220" stroke-width="1.2" />
-  <line class="net-line-mono" x1="90" y1="110" x2="180" y2="290" stroke-width="1.2" />
-  <line class="net-line-mono" x1="90" y1="185" x2="180" y2="80" stroke-width="1.2" />
-  <line class="net-line-purple" x1="90" y1="185" x2="180" y2="150" stroke-width="1.2" />
-  <line class="net-line-mono" x1="90" y1="185" x2="180" y2="220" stroke-width="1.2" />
-  <line class="net-line-purple" x1="90" y1="185" x2="180" y2="290" stroke-width="1.2" />
-  <line class="net-line-purple" x1="90" y1="260" x2="180" y2="80" stroke-width="1.2" />
-  <line class="net-line-mono" x1="90" y1="260" x2="180" y2="150" stroke-width="1.2" />
-  <line class="net-line-purple" x1="90" y1="260" x2="180" y2="220" stroke-width="1.2" />
-  <line class="net-line-mono" x1="90" y1="260" x2="180" y2="290" stroke-width="1.2" />
-  <line class="net-line-purple" x1="180" y1="80" x2="270" y2="135" stroke-width="1.2" />
-  <line class="net-line-mono" x1="180" y1="80" x2="270" y2="235" stroke-width="1.2" />
-  <line class="net-line-mono" x1="180" y1="150" x2="270" y2="135" stroke-width="1.2" />
-  <line class="net-line-purple" x1="180" y1="150" x2="270" y2="235" stroke-width="1.2" />
-  <line class="net-line-purple" x1="180" y1="220" x2="270" y2="135" stroke-width="1.2" />
-  <line class="net-line-mono" x1="180" y1="220" x2="270" y2="235" stroke-width="1.2" />
-  <line class="net-line-mono" x1="180" y1="290" x2="270" y2="135" stroke-width="1.2" />
-  <line class="net-line-purple" x1="180" y1="290" x2="270" y2="235" stroke-width="1.2" />
+  <line class="net-line-flow" x1="90" y1="110" x2="180" y2="80" stroke-width="1.2" />
+  <line class="net-line-static" x1="90" y1="110" x2="180" y2="150" stroke-width="1.2" />
+  <line class="net-line-flow" x1="90" y1="110" x2="180" y2="220" stroke-width="1.2" />
+  <line class="net-line-static" x1="90" y1="110" x2="180" y2="290" stroke-width="1.2" />
+  <line class="net-line-static" x1="90" y1="185" x2="180" y2="80" stroke-width="1.2" />
+  <line class="net-line-flow" x1="90" y1="185" x2="180" y2="150" stroke-width="1.2" />
+  <line class="net-line-static" x1="90" y1="185" x2="180" y2="220" stroke-width="1.2" />
+  <line class="net-line-flow" x1="90" y1="185" x2="180" y2="290" stroke-width="1.2" />
+  <line class="net-line-flow" x1="90" y1="260" x2="180" y2="80" stroke-width="1.2" />
+  <line class="net-line-static" x1="90" y1="260" x2="180" y2="150" stroke-width="1.2" />
+  <line class="net-line-flow" x1="90" y1="260" x2="180" y2="220" stroke-width="1.2" />
+  <line class="net-line-static" x1="90" y1="260" x2="180" y2="290" stroke-width="1.2" />
+  <line class="net-line-flow" x1="180" y1="80" x2="270" y2="135" stroke-width="1.2" />
+  <line class="net-line-static" x1="180" y1="80" x2="270" y2="235" stroke-width="1.2" />
+  <line class="net-line-static" x1="180" y1="150" x2="270" y2="135" stroke-width="1.2" />
+  <line class="net-line-flow" x1="180" y1="150" x2="270" y2="235" stroke-width="1.2" />
+  <line class="net-line-flow" x1="180" y1="220" x2="270" y2="135" stroke-width="1.2" />
+  <line class="net-line-static" x1="180" y1="220" x2="270" y2="235" stroke-width="1.2" />
+  <line class="net-line-static" x1="180" y1="290" x2="270" y2="135" stroke-width="1.2" />
+  <line class="net-line-flow" x1="180" y1="290" x2="270" y2="235" stroke-width="1.2" />
 
     <!-- Nodes -->
-  <circle class="net-node-mono-ring" cx="90" cy="110" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-mono" cx="90" cy="110" r="5.5" filter="url(#white-glow)" />
-  <circle class="net-node-mono-ring" cx="90" cy="185" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-mono" cx="90" cy="185" r="5.5" filter="url(#white-glow)" />
-  <circle class="net-node-mono-ring" cx="90" cy="260" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-mono" cx="90" cy="260" r="5.5" filter="url(#white-glow)" />
-  <circle class="net-node-purple-ring" cx="180" cy="80" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-purple" cx="180" cy="80" r="5.5" filter="url(#purple-glow)" />
-  <circle class="net-node-purple-ring" cx="180" cy="150" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-purple" cx="180" cy="150" r="5.5" filter="url(#purple-glow)" />
-  <circle class="net-node-purple-ring" cx="180" cy="220" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-purple" cx="180" cy="220" r="5.5" filter="url(#purple-glow)" />
-  <circle class="net-node-purple-ring" cx="180" cy="290" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-purple" cx="180" cy="290" r="5.5" filter="url(#purple-glow)" />
-  <circle class="net-node-mono-ring" cx="270" cy="135" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-mono" cx="270" cy="135" r="5.5" filter="url(#white-glow)" />
-  <circle class="net-node-mono-ring" cx="270" cy="235" r="11" fill="none" stroke-width="1" stroke-dasharray="3 2" />
-  <circle class="net-node-mono" cx="270" cy="235" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-1" cx="90" cy="110" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="90" cy="110" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-2" cx="90" cy="185" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="90" cy="185" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-3" cx="90" cy="260" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="90" cy="260" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-1" cx="180" cy="80" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="180" cy="80" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-2" cx="180" cy="150" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="180" cy="150" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-3" cx="180" cy="220" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="180" cy="220" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-1" cx="180" cy="290" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="180" cy="290" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-2" cx="270" cy="135" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="270" cy="135" r="5.5" filter="url(#white-glow)" />
+  <circle class="net-node-ring net-node-ring-3" cx="270" cy="235" r="11" fill="none" stroke-width="1" />
+  <circle class="net-node-core" cx="270" cy="235" r="5.5" filter="url(#white-glow)" />
   </g>
 
   <!-- Faint divider line separating graph and metrics -->
   <line x1="45" y1="320" x2="315" y2="320" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1" stroke-dasharray="2 2" />
 
-  <!-- Bottom Panel Metrics (Centered and spaced symmetrically) -->
+  <!-- Bottom Panel Metrics -->
   <text class="panel-stat-text" x="80" y="342" text-anchor="middle">EPOCH: 0512</text>
   <text class="panel-stat-text" x="180" y="342" text-anchor="middle">LOSS: 0.0134</text>
   <text class="panel-stat-text" x="280" y="342" text-anchor="middle">ACC: 99.12%</text>
@@ -310,21 +318,21 @@
   <!-- Panel Header -->
   <path class="panel-header-bg" d="M 355,33 A 8,8 0 0,1 363,25 L 767,25 A 8,8 0 0,1 775,33 L 775,53 L 355,53 Z" />
   <text class="panel-header-text" x="370" y="42">[ IDENTITY_DECRYPTED ]</text>
-  <circle class="header-dot-right" cx="755" cy="39" r="3.5" filter="url(#white-glow)" />
+  <circle class="header-dot-right" cx="755" cy="39" r="3.5" />
 
   <!-- Title "ABOUT ME" -->
   <text class="title-text" x="375" y="75">ABOUT ME</text>
   
   <!-- Line divider under title -->
-  <line x1="375" y1="87" x2="520" y2="87" stroke="#a955f7" stroke-width="2" filter="url(#purple-glow)" />
+  <line x1="375" y1="87" x2="520" y2="87" stroke="#ffffff" stroke-width="2" filter="url(#white-glow)" />
   <line x1="520" y1="87" x2="745" y2="87" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
 
-  <!-- Details Content (Balanced Vertical Padding and Symmetrical Grid Spacing) -->
+  <!-- Details Content -->
   <!-- Name -->
   <text class="label-text" x="375" y="112">NAME</text>
   <text class="value-text" x="375" y="130">Amudalapalli Venkateswara Rao</text>
 
-  <!-- Info Grid (Location & Education, Column 2 starts symmetrically at x=575) -->
+  <!-- Info Grid -->
   <text class="label-text" x="375" y="162">LOCATION</text>
   <text class="body-text" x="375" y="180">📍 Rajahmundry, India</text>
 
@@ -334,7 +342,7 @@
 
   <!-- Core Domains -->
   <text class="label-text" x="375" y="232">CORE DOMAINS</text>
-  <!-- Domain tags (Vertical Centering using dominant-baseline) -->
+  <!-- Domain tags -->
   <!-- Data Science -->
   <g transform="translate(375, 242)">
     <rect class="tag-domain" x="0" y="0" width="100" height="24" rx="4" />
@@ -353,7 +361,7 @@
 
   <!-- Currently Learning -->
   <text class="label-text" x="375" y="294">CURRENT FOCUS &amp; LEARNING</text>
-  <!-- Focus tags (Vertical Centering using dominant-baseline) -->
+  <!-- Focus tags -->
   <!-- FastAPI -->
   <g transform="translate(375, 304)">
     <rect class="tag-learning" x="0" y="0" width="70" height="24" rx="4" />
