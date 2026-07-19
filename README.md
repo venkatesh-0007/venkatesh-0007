@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="divider/divider.svg?v=2" width="100%">
+  <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ Data Science • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider/divider.svg?v=2" width="100%">
+  <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
 
 <br><br>
@@ -34,7 +34,7 @@ Data Science • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider/divider.svg" alt="Cosmic Divider" width="100%">
+  <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
 
 <br><br>
@@ -80,7 +80,7 @@ Data Science • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider/divider.svg?v=2" alt="Cosmic Divider" width="100%">
+  <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
 
 <br><br>
@@ -109,7 +109,7 @@ Data Science • Machine Learning • Data Engineering
 <br><br>
 
 <p align="center">
-  <img src="divider/divider.svg?v=2" alt="Cosmic Divider" width="100%">
+  <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
 
 <br><br>
