@@ -15,6 +15,8 @@ Building practical AI systems and automation tools
 Data Science • Machine Learning • Data Engineering
 </h3>
 
+<br>
+
 <p align="center">
   <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
