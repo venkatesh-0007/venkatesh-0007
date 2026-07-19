@@ -15,29 +15,19 @@ Building practical AI systems and automation tools
 Data Science • Machine Learning • Data Engineering
 </h3>
 
-<br><br>
-
 <p align="center">
   <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
 
-<br><br>
-
 # About Me
-
-<br>
 
 <p align="center">
   <img src="about/about.svg?v=2" width="100%">
 </p>
 
-<br><br>
-
 <p align="center">
   <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
-
-<br><br>
 
 # Tech Stack
 
@@ -77,13 +67,9 @@ Data Science • Machine Learning • Data Engineering
 ![Jupyter](https://img.shields.io/badge/Jupyter-111111?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-111111?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-<br><br>
-
 <p align="center">
   <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
-
-<br><br>
 
 # GitHub Insights
 
@@ -106,13 +92,9 @@ Data Science • Machine Learning • Data Engineering
 
 </p> -->
 
-<br><br>
-
 <p align="center">
   <img src="divider/option1_loading_blocks.svg" width="100%">
 </p>
-
-<br><br>
 
 # Connect With Me
 
